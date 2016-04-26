@@ -1,0 +1,6 @@
+framework module LYLeaksInspector {
+  umbrella header "LYLeaksInspector-umbrella.h"
+
+  export *
+  module * { export * }
+}

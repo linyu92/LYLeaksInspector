@@ -1,0 +1,21 @@
+PODS:
+  - FBSnapshotTestCase (2.1.0):
+    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
+  - FBSnapshotTestCase/Core (2.1.0)
+  - FBSnapshotTestCase/SwiftSupport (2.1.0):
+    - FBSnapshotTestCase/Core
+  - LYLeaksInspector (0.1.0)
+
+DEPENDENCIES:
+  - FBSnapshotTestCase
+  - LYLeaksInspector (from `../`)
+
+EXTERNAL SOURCES:
+  LYLeaksInspector:
+    :path: ../
+
+SPEC CHECKSUMS:
+  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
+  LYLeaksInspector: b111e8d753ab83bbaa9b693e04f71c5d1b3356da
+
+COCOAPODS: 0.39.0
