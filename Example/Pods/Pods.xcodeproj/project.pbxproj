@@ -10,62 +10,20 @@
 	<string>46</string>
 	<key>objects</key>
 	<dict>
-		<key>0528444EFC68619AD1FEB8A7CD4A01BA</key>
+		<key>0058765FE662FF8F33505AE1DA2D95F1</key>
 		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>QuartzCore.framework</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/QuartzCore.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>0773D1C769DEA163BE30ABA89971682B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LYLeaksInspector.modulemap</string>
+			<string>LYLDViewLeakStackController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>08BE39E8A6BF986160FAD67AC4D890E9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>09B153DFEB3291FF360FF86EDA8E4E91</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6488C9752F646FD1601537DBF7CA2332</string>
-				<string>0773D1C769DEA163BE30ABA89971682B</string>
-				<string>BEC8258A863840FFA952C6A8968C7324</string>
-				<string>C006493B2CEBDAA04A731DCB71BBA220</string>
-				<string>FB7E361F85082365184DD68ADA08A58B</string>
-				<string>8FFF164347135F299BBFBEAACFEDD74D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/LYLeaksInspector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0A4C0F64AD3D2EF17F9447806B7DB433</key>
+		<key>02473D424E91D46FB0E14ECBF6BA1AA3</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -74,16 +32,76 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase-prefix.pch</string>
+			<string>LYLeaksInspector-umbrella.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>0B5AFBECA97FDC060CE7B4F1AFD0034A</key>
+		<key>025121EAC57C7C3E0AC2447285183020</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDViewLeakStackController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>03FD53F4CE81903CB7EF5C10445CF3D4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYTestLeaksController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0576E6DE539AE29EA00D8C28C15BA71F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>56755658CF7446DDD44BD53504A6BC93</string>
+			<string>255961054C2D48D510A8545E84510497</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>06E9A426D1A9301485AAFFEC479A3588</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDWindowController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>0BC9F0C81A8FF49DB722F6693309663C</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3C47E5A65CD434414919D41137C47DC0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>0BFD7287EDDC26951C57439E029603BF</key>
 		<dict>
@@ -108,28 +126,36 @@
 			<key>productName</key>
 			<string>Pods-LYLeaksInspector_Example</string>
 			<key>productReference</key>
-			<string>D6F34897B2D9C4E4C515ECE9983FD8C2</string>
+			<string>FA7AFE949D68EC2E19FDF1D6EC4A3060</string>
 			<key>productType</key>
 			<string>com.apple.product-type.framework</string>
 		</dict>
-		<key>0EF4B33C5C9AD4642E9C4AB1DA204623</key>
+		<key>0C31AA61CBFC9BC1D8C348431A8E1CE0</key>
 		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7F9AAC65FC2D87C34EA9D6A5ACB4401</string>
-				<string>2696638529960E774A76D99A13D595BB</string>
-				<string>3FF33EF2BEA328811C6BC7C97A9776A3</string>
-				<string>125E9AB8D9F3FA41A578627E57C1B37A</string>
-				<string>E44BA8216CB73A40822467A02D7D847B</string>
-				<string>AEBA7273A59F2B043A31661C1CB1604C</string>
-				<string>C5C081A0337FC266B8C37E0D858AB743</string>
-			</array>
+			<key>fileRef</key>
+			<string>342A29CEC988297637F5521D719607C7</string>
 			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>0F6D13E2AF1F1CBBAA9BEBB8644581DC</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYTestLeaksController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>10DE1947DAC0ED28F6C0A9F9BD75D546</key>
 		<dict>
@@ -199,19 +225,66 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>125E9AB8D9F3FA41A578627E57C1B37A</key>
+		<key>12270CCFA157CBFAA58052C8F1879A6D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>B2AD796E0811AED05EEA7E020A7947B0</string>
+			<string>44D571E6263DEA1D492725123EECBA4E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>ATTRIBUTES</key>
 				<array>
-					<string>Project</string>
+					<string>Public</string>
 				</array>
 			</dict>
+		</dict>
+		<key>1287B6C8738C7E77F074092A84F002CF</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSObject+MRCInstanceValue.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12A8205B599EDD01C33E5DC2F3C47659</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLeaksDefined.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>12E8FED76DDFEA5C9CC7CBD50B0E1C40</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>BFD8F7D074BD70D252E0281925A18E98</string>
+				<string>FA7AFE949D68EC2E19FDF1D6EC4A3060</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Products</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>13798A4A445349E03AADA1ADDE3BBEB8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>139534B723A41BA67EBC57B9B3246649</key>
 		<dict>
@@ -226,44 +299,7 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>14B8B9B15ECBE87983FF987239AB2D7B</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>CD3FB7D37E46A5379C926728A416D78E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14D67C6AB4F5F1A468B743770DD565EE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>B8F06C50ECC2455A15046E2612630C77</string>
-				<string>556D0A141044E283AC98232E2229A53F</string>
-				<string>210BF50D104340FCC9823B53E96366B6</string>
-				<string>8564BFD2E46D888A9156C00E50000896</string>
-				<string>1622EB4942218367B67DD591664D2DE5</string>
-				<string>7B6E23CF19A4CD21BECE0533B63E2ABD</string>
-				<string>6F0C7963823F9DA1E0CD8E9B86AC3F72</string>
-				<string>BEB36755DB4AEFD561F6C002708D8888</string>
-				<string>A4D869A06935AE9D86C5F736E766E634</string>
-				<string>8EA472645A22F51FCD1F9C85553E8D7F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LYLeaksInspector_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LYLeaksInspector_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1622EB4942218367B67DD591664D2DE5</key>
+		<key>13C5FBCA339E9D0DB36414B2310D5BCD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -272,142 +308,24 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-dummy.m</string>
+			<string>LYLeaksDebugWindow.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>175E07AEBDAD15ABC9427FE1FC5774C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Snapshot.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17BE969126FF0EDA7A0F3522919CB4C5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestCasePlatform.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>19AD7C41434DB3740E3B26884B80EC2E</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>B3BE4CBFBB50CF48FCDEFB5806172213</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1C33D9EEC757EE000166BA2AF6A93C7B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1D6594EF143A1F10F8A37C2E8D0287F5</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>656B7EE11AA3382D22CCC52EDFB920D3</string>
-			<key>buildPhases</key>
-			<array>
-				<string>4B545BE48EF1465F9B5D8A24DF5965EC</string>
-				<string>19AD7C41434DB3740E3B26884B80EC2E</string>
-				<string>9DDDFEE9175C2EE1D002C09F136C432B</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>BB79CD1026E3E342BFD964F46ECAB279</string>
-				<string>8CC0798F52F2F5BB3BCF8B43BF45B25F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LYLeaksInspector_Tests</string>
-			<key>productName</key>
-			<string>Pods-LYLeaksInspector_Tests</string>
-			<key>productReference</key>
-			<string>89C0BAABA3BED728F7AF9D9DB7BA9798</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>210BF50D104340FCC9823B53E96366B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2250278EAD2D0D5D988FD282732660FF</key>
+		<key>14B0F36C7B08E1BA269EA7F08DC0AD9F</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>FC1F37AD9B363A1CBB5A66EACB8615B2</string>
-				<string>09B153DFEB3291FF360FF86EDA8E4E91</string>
+				<string>8F12599292969DDEB0DDDE80EC24074F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>path</key>
-			<string>../..</string>
+			<string>Targets Support Files</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>2286726EE97EDD2760BEC7D00B9A66D8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4C4C430B241A67C7A6029E78EB92FF9E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2393D1A899C707F79A64672C46ED238F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>UIKit.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/UIKit.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>23A5D64A8DED45B714F8DF2F0AFAC719</key>
+		<key>15572F5584F7829BBD4B04CAE6BA69D8</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -415,44 +333,15 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.m</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.m</string>
+			<string>UIViewController+LeaksInspector.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>25776C467833E40E52D4EED5BE6855F9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2696638529960E774A76D99A13D595BB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>4396A99C0AAE10F414B527B80FC1DACB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>278476E766778D6390479281E61988ED</key>
+		<key>198DDE6FC936DD38006D8DE8242AA4F9</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>BEC8258A863840FFA952C6A8968C7324</string>
+			<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -505,23 +394,250 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>2B4A542C031CB023CD0A59AE9A888D98</key>
+		<key>1AED72596B365C37EA9C6D9918530932</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYHeapObjectEnumerator.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1B9C3D3637BF20AE766D65AB60AD907D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B22509E842D4300AB8ED7203BCCF0992</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>1C741C5160D2090F18A854E579516260</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDStringListController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>1EF7C8A6956C965A60B2E4D28FD1E6AC</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>CA226F278EF7EEF6A834893890DD4B75</string>
+				<string>AB6DC27566F9B3A47F2EF5A0E5DBB2D7</string>
+				<string>8532B7A7A77C2B3935194435FF09A427</string>
+				<string>E0934C58066C1C14132C7F151E4F352E</string>
+				<string>255961054C2D48D510A8545E84510497</string>
+				<string>DEB2491BFF0B3FD7A4B9832E2D4A240C</string>
+				<string>4BC6CA37ADB320EA2D9C2E74120E4994</string>
+				<string>FD6E2F822163C97DE6E341AFA9BBD432</string>
+				<string>F68C9C3E25B59B3E2657DF9A1A3297AA</string>
+				<string>D89AA668780A13F8B70BEB0198AE4248</string>
+				<string>8671194671CA396B2E058AA69FA1FB00</string>
+				<string>1C741C5160D2090F18A854E579516260</string>
+				<string>461591FCF9705ABFF00E3BD64CD9B615</string>
+				<string>B22509E842D4300AB8ED7203BCCF0992</string>
+				<string>89868EFA9533576054AEF522D9452C69</string>
+				<string>554D3EF841E3B33C21F8507E045F0FF1</string>
+				<string>44D571E6263DEA1D492725123EECBA4E</string>
+				<string>5B669737961DBE9E6C18E4D4EEFB144F</string>
+				<string>025121EAC57C7C3E0AC2447285183020</string>
+				<string>0058765FE662FF8F33505AE1DA2D95F1</string>
+				<string>06E9A426D1A9301485AAFFEC479A3588</string>
+				<string>DF8ECC0E6BF9D795A0955640CC94B033</string>
+				<string>F6B52A676E0EFD8253F0581B7A009A88</string>
+				<string>13C5FBCA339E9D0DB36414B2310D5BCD</string>
+				<string>0F6D13E2AF1F1CBBAA9BEBB8644581DC</string>
+				<string>03FD53F4CE81903CB7EF5C10445CF3D4</string>
+				<string>3C47E5A65CD434414919D41137C47DC0</string>
+				<string>4E8EBC9EB8974EF476E71E01BE882C91</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>UI</string>
+			<key>path</key>
+			<string>UI</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2316A95395FBED7CBABAD73F608BF8EA</key>
+		<dict>
+			<key>buildConfigurationList</key>
+			<string>2488115AFD9B97C3288FE629DAC7135B</string>
+			<key>buildPhases</key>
+			<array>
+				<string>25B4FB17B3B47086399EDBE89D8BAE6A</string>
+				<string>D9A65E136AB6AB98F749479BA73F6E88</string>
+				<string>88A0D3860E1DDE6F862A454AF7402C38</string>
+			</array>
+			<key>buildRules</key>
+			<array/>
+			<key>dependencies</key>
+			<array/>
+			<key>isa</key>
+			<string>PBXNativeTarget</string>
+			<key>name</key>
+			<string>LYLeaksInspector</string>
+			<key>productName</key>
+			<string>LYLeaksInspector</string>
+			<key>productReference</key>
+			<string>BFD8F7D074BD70D252E0281925A18E98</string>
+			<key>productType</key>
+			<string>com.apple.product-type.framework</string>
+		</dict>
+		<key>246B1099CC1C427170EDEE17AF5A2D4D</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>1AED72596B365C37EA9C6D9918530932</string>
+				<string>12A8205B599EDD01C33E5DC2F3C47659</string>
+				<string>38D333E92E5F577974F0F38A1DFF48B5</string>
+				<string>AB90B761949C5EF7DF07AA7E51E0369A</string>
+				<string>1287B6C8738C7E77F074092A84F002CF</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MRC</string>
+			<key>path</key>
+			<string>MRC</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2488115AFD9B97C3288FE629DAC7135B</key>
+		<dict>
+			<key>buildConfigurations</key>
+			<array>
+				<string>198DDE6FC936DD38006D8DE8242AA4F9</string>
+				<string>C92080D1B3BC37BF31DBE2B67FB134A5</string>
+			</array>
+			<key>defaultConfigurationIsVisible</key>
+			<string>0</string>
+			<key>defaultConfigurationName</key>
+			<string>Release</string>
+			<key>isa</key>
+			<string>XCConfigurationList</string>
+		</dict>
+		<key>255961054C2D48D510A8545E84510497</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDPropertiesViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>25B31D004057B3FE1F6E25DC0F0B8D91</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB6DC27566F9B3A47F2EF5A0E5DBB2D7</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>25B4FB17B3B47086399EDBE89D8BAE6A</key>
 		<dict>
 			<key>buildActionMask</key>
 			<string>2147483647</string>
 			<key>files</key>
 			<array>
-				<string>56E9E81B8CB036D059DCBEFB09D93E71</string>
+				<string>3F766A1507A4211B79B58A5102ED3FA6</string>
+				<string>25B31D004057B3FE1F6E25DC0F0B8D91</string>
+				<string>F92A2BD95DF45F53678474707906B69F</string>
+				<string>CDECDBA75606125D75F857B8AAF57931</string>
+				<string>325D0906C04C8078F98C4714188F0253</string>
+				<string>6169528B8956B76E6BD45BD3C4E09282</string>
+				<string>5B65133D8962AC8FB32A47412A753A92</string>
+				<string>1B9C3D3637BF20AE766D65AB60AD907D</string>
+				<string>FA3C6524250651D15A72F02000A0C22D</string>
+				<string>A500F0D6AAB1F1214FBD423BB7F2276A</string>
+				<string>D5E81FC5E7C1166BB0D1FC7FF9E32D19</string>
+				<string>BCC3FE23604C1846EF5B1A020DDFBD06</string>
+				<string>C4906C63064E183D9F61B5A0EE9C71EE</string>
+				<string>F4F19C154BC2F205DC9DC2EA53FE2DC0</string>
+				<string>CF413275655A21F858C16BDB024CA1DD</string>
+				<string>F8C469584A527B4A7FBCDFEB601510B4</string>
+				<string>96D41E55EC6B95913E231727F40E5A7E</string>
+				<string>4A8F66335A4462B2C8A007EDC9732D6A</string>
+				<string>E2E5B4BFD0F5DB88530947F54E8947A8</string>
+				<string>2947817F9592A1EDDD087C6620EE5104</string>
+				<string>E4857BB5F692A5A6534DEEA8CE938176</string>
+				<string>989CDB10D31D1E01CC93E884C8E9E440</string>
+				<string>5A759EAB91FDD988E8F5956E7567ED50</string>
+				<string>DBC562873AA39DDC57544D1DE7FD35FA</string>
+				<string>A8598AA29F273D202595EBDC92E6A60A</string>
+				<string>FEB25A608F1A9AD0A6308F338E0EA7BC</string>
+				<string>9037A66747F055DE9423B7473DE84056</string>
 			</array>
 			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
+			<string>PBXSourcesBuildPhase</string>
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>2BC909506384AB9616BC20B45D411891</key>
+		<key>278A3C9845CE7C30107D77D1144DB98E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F71E2B64280739452A68950E8A86BA20</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>LYLeaksInspector</string>
+			<key>path</key>
+			<string>LYLeaksInspector</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2947817F9592A1EDDD087C6620EE5104</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D852C8207C8757C7FF96DC8DFFB697C1</string>
+			<string>D97F7D7171C2FF425BB85810F6772540</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>296CFC9A7CFF46AF8A3C9208ED583D9D</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UINavigationController+LeaksInspector.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>29EC8D897639F8B69A1A099938523599</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Pods-LYLeaksInspector_Example-acknowledgements.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>2CAB4793F0395A7340E83F91BFEE1D84</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D581535FFE1F423D91A8E0391462313E</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -546,103 +662,27 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>2F73BBAF40A73B9FAF1F90C7DD60B693</key>
+		<key>314743A4DEDB31903449A4709CAD82EA</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>E25DF0E3013D15E06F5E0CE782762B26</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FBSnapshotTestCase/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>FBSnapshotTestCase</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.xcconfig</string>
+			<key>path</key>
+			<string>Pods-LYLeaksInspector_Example.debug.xcconfig</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3242B68A7A9DEB6CA06CADA779D31924</key>
+		<key>325D0906C04C8078F98C4714188F0253</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BEC8258A863840FFA952C6A8968C7324</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LYLeaksInspector</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
-			</dict>
+			<key>fileRef</key>
+			<string>FD6E2F822163C97DE6E341AFA9BBD432</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
+			<string>PBXBuildFile</string>
 		</dict>
-		<key>348965C17AB71570477C9F47F95328DF</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>47F4252DEFDE1FD558C94B874F716335</string>
-				<string>3C18F29E03CADC58B278518F22B7B517</string>
-				<string>A38506CF4700DA06E89C871D8388D83E</string>
-				<string>FDCF5EFC95C413E5DCF5133D3DFC4170</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>384A1B103C9D183D6A1C08DD450C61CA</key>
+		<key>342A29CEC988297637F5521D719607C7</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -650,31 +690,48 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Diff.h</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Diff.h</string>
+			<string>UINavigationController+LeaksInspector.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3C18F29E03CADC58B278518F22B7B517</key>
+		<key>38D333E92E5F577974F0F38A1DFF48B5</key>
 		<dict>
-			<key>fileRef</key>
-			<string>0528444EFC68619AD1FEB8A7CD4A01BA</string>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYNotificationMapper.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3C85E62EBD0D660C3DB557FABF9B8E10</key>
+		<key>3A5529424C1EA133FC74121D67622CDE</key>
 		<dict>
-			<key>fileRef</key>
-			<string>8575814874877CB96D9A13C7BBD6AB1A</string>
+			<key>children</key>
+			<array>
+				<string>F259EE8D31957B907391D0F833B35E4E</string>
+				<string>9999CA8AD040B5486AE7852CA76CE127</string>
+				<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
+				<string>5B43E3472B51727C4FC96188459C6955</string>
+				<string>FD69BC9ED1946E564E2DBF95B61493F5</string>
+				<string>02473D424E91D46FB0E14ECBF6BA1AA3</string>
+			</array>
 			<key>isa</key>
-			<string>PBXBuildFile</string>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Support Files</string>
+			<key>path</key>
+			<string>Example/Pods/Target Support Files/LYLeaksInspector</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>3FF33EF2BEA328811C6BC7C97A9776A3</key>
+		<key>3B049A507980DD0BF1D2D6CD4D104673</key>
 		<dict>
 			<key>fileRef</key>
-			<string>721CC07FAB91C1143E71B21BB3E20BC6</string>
+			<string>461591FCF9705ABFF00E3BD64CD9B615</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -685,7 +742,7 @@
 				</array>
 			</dict>
 		</dict>
-		<key>4396A99C0AAE10F414B527B80FC1DACB</key>
+		<key>3C47E5A65CD434414919D41137C47DC0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -693,203 +750,174 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestCasePlatform.h</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCasePlatform.h</string>
+			<string>LYTestLeaksView.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>448D77B5227869A140E1E4F87DD89491</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXResourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>45DE3340D3D3D24309085EBEE3CECDA8</key>
+		<key>3DB07CF39EB353ED9C5EF40B8B49A7C4</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text</string>
+			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-acknowledgements.markdown</string>
+			<string>LYLeaksInspector.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>47F4252DEFDE1FD558C94B874F716335</key>
+		<key>3E4E89230EF59BC255123B67864ACF77</key>
+		<dict>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>wrapper.framework</string>
+			<key>name</key>
+			<string>Foundation.framework</string>
+			<key>path</key>
+			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<key>sourceTree</key>
+			<string>DEVELOPER_DIR</string>
+		</dict>
+		<key>3F6D862890C90D16CF687A7E74A3B4F4</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>UIViewController+LeaksInspector.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>3F766A1507A4211B79B58A5102ED3FA6</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D31B096AB4A0164C61B63F0E59AD76C9</string>
+			<string>1AED72596B365C37EA9C6D9918530932</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
-		</dict>
-		<key>48632749353008A15FA6287B6958937C</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BEC8258A863840FFA952C6A8968C7324</string>
-			<key>buildSettings</key>
+			<key>settings</key>
 			<dict>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LYLeaksInspector</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>WRAPPER_EXTENSION</key>
-				<string>bundle</string>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
 			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
 		</dict>
-		<key>49FE25CB0990A912973D24121C151E6A</key>
+		<key>40CC771358BE7236CDD86C0AD4405280</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4AC44539ECAD5FB36C55D17B41397F14</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4B545BE48EF1465F9B5D8A24DF5965EC</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
+			<key>children</key>
 			<array>
-				<string>0B5AFBECA97FDC060CE7B4F1AFD0034A</string>
+				<string>246B1099CC1C427170EDEE17AF5A2D4D</string>
 			</array>
 			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>4C4C430B241A67C7A6029E78EB92FF9E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>ReplaceMe.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4F88C74D733720F86716DAF1B048177E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>UIImage+Compare.m</string>
+			<string>Classes</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Compare.m</string>
+			<string>Classes</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>500CFFB619BA25FB57B6AF48F8CCD8F3</key>
+		<key>44D571E6263DEA1D492725123EECBA4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDViewHierarchyController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>461591FCF9705ABFF00E3BD64CD9B615</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDTableViewCell.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4A8F66335A4462B2C8A007EDC9732D6A</key>
 		<dict>
 			<key>fileRef</key>
-			<string>4F88C74D733720F86716DAF1B048177E</string>
+			<string>03FD53F4CE81903CB7EF5C10445CF3D4</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>54B0BD506C02251E48C59387FCBE9090</key>
+		<key>4BC6CA37ADB320EA2D9C2E74120E4994</key>
 		<dict>
-			<key>baseConfigurationReference</key>
-			<string>25776C467833E40E52D4EED5BE6855F9</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Tests/Pods-LYLeaksInspector_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_LYLeaksInspector_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>SWIFT_OPTIMIZATION_LEVEL</key>
-				<string>-Onone</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>XCBuildConfiguration</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDResponderChainViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>4E8EBC9EB8974EF476E71E01BE882C91</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYTestLeaksView.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5226AB559721558188C61B973D704867</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLeaksInspector.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>54D860A238876494443C8657EFACF4FA</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F71E38737D3D97C9FAB79B2636689CCE</string>
+				<string>D97F7D7171C2FF425BB85810F6772540</string>
+				<string>D581535FFE1F423D91A8E0391462313E</string>
+				<string>7AAEDCC181D01EF5FCB2C234D58A5D50</string>
+				<string>342A29CEC988297637F5521D719607C7</string>
+				<string>296CFC9A7CFF46AF8A3C9208ED583D9D</string>
+				<string>B56FEB122E99EA980E6882C6553542DD</string>
+				<string>5F7F141402AE1AAD0FEE29B926434631</string>
+				<string>5A8A3B14D9F02532A58AE784490B6D49</string>
+				<string>73DB4A373C2E30994769A1532908E2B0</string>
+				<string>3F6D862890C90D16CF687A7E74A3B4F4</string>
+				<string>15572F5584F7829BBD4B04CAE6BA69D8</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Debug</string>
+			<string>Categories</string>
+			<key>path</key>
+			<string>Categories</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>552D02D5BA751AC2E8790D2811D496CA</key>
 		<dict>
@@ -964,31 +992,7 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>556D0A141044E283AC98232E2229A53F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>561B00C22FB1E3E7D31E7BEB2FD4F332</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>56755658CF7446DDD44BD53504A6BC93</key>
+		<key>554D3EF841E3B33C21F8507E045F0FF1</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -997,80 +1001,103 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-dummy.m</string>
+			<string>LYLDTableViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>5683507F35289564275992CB54F0DFC1</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D4580B25E1694117D0D6CC26820B3A17</string>
-			<key>remoteInfo</key>
-			<string>LYLeaksInspector</string>
-		</dict>
-		<key>56E9E81B8CB036D059DCBEFB09D93E71</key>
+		<key>57F0DE29C3E609E6B227F7BBB93A9879</key>
 		<dict>
 			<key>fileRef</key>
-			<string>5A11E26689CA5A86E73609F8A337F893</string>
+			<string>A755106E47197E353B4B08EE93F5C826</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
-		<key>586FC766C7C0D2106A583C3419FEF3ED</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>48632749353008A15FA6287B6958937C</string>
-				<string>3242B68A7A9DEB6CA06CADA779D31924</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>58A1305D922FF21E64916EBF07C5A689</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6DD9EBDCF7067F613B689BB4D2D7F07D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>SwiftSupport</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>58CA52BCED9F6E2A9CCE4DF19E873D3E</key>
+		<key>5A759EAB91FDD988E8F5956E7567ED50</key>
 		<dict>
 			<key>fileRef</key>
-			<string>23A5D64A8DED45B714F8DF2F0AFAC719</string>
+			<string>1287B6C8738C7E77F074092A84F002CF</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
 		</dict>
-		<key>5A11E26689CA5A86E73609F8A337F893</key>
+		<key>5A8A3B14D9F02532A58AE784490B6D49</key>
 		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.cfbundle</string>
 			<key>includeInIndex</key>
-			<string>0</string>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LYLeaksInspector.bundle</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>LYLeaksInspector.bundle</string>
+			<string>UIView+Recursive.h</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6488C9752F646FD1601537DBF7CA2332</key>
+		<key>5B43E3472B51727C4FC96188459C6955</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLeaksInspector-dummy.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5B65133D8962AC8FB32A47412A753A92</key>
+		<dict>
+			<key>fileRef</key>
+			<string>1C741C5160D2090F18A854E579516260</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>5B669737961DBE9E6C18E4D4EEFB144F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDViewHierarchyController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>5F7F141402AE1AAD0FEE29B926434631</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>UIView+LeaksInspector.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>6169528B8956B76E6BD45BD3C4E09282</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D89AA668780A13F8B70BEB0198AE4248</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>657D6541B33180839E9D25D165EBFD5A</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1083,47 +1110,33 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>656B7EE11AA3382D22CCC52EDFB920D3</key>
+		<key>678BAE6990A8161921F5808C03E00AE4</key>
 		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>54B0BD506C02251E48C59387FCBE9090</string>
-				<string>9FF94D3A7F4EC2B7BB01ED2A1EAFF9D8</string>
+				<string>278A3C9845CE7C30107D77D1144DB98E</string>
+				<string>6A8F8AC9DE0B72CD11EA8E1D05F97B65</string>
+				<string>3A5529424C1EA133FC74121D67622CDE</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>65D71FC798CF2687B7FCCB4DADFBD19C</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>LYLeaksInspector.framework</string>
+			<string>LYLeaksInspector</string>
 			<key>path</key>
-			<string>LYLeaksInspector.framework</string>
+			<string>../..</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
-		<key>6DD9EBDCF7067F613B689BB4D2D7F07D</key>
+		<key>6A8F8AC9DE0B72CD11EA8E1D05F97B65</key>
 		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
+			<key>children</key>
+			<array>
+				<string>7CA106A0C5AD6D14608D75AEBCE0938E</string>
+			</array>
 			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.swift</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>SwiftSupport.swift</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/SwiftSupport.swift</string>
+			<string>no-arc</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1141,105 +1154,10 @@
 			<key>isa</key>
 			<string>XCConfigurationList</string>
 		</dict>
-		<key>6F0C7963823F9DA1E0CD8E9B86AC3F72</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6F2725E73D6CE752DBED9A4267752475</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>705E731A2FAF146E3D8FB70BEC38BF03</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>ACA986D09F2ADCDF38C871D9B903EDA0</string>
-				<string>2286726EE97EDD2760BEC7D00B9A66D8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>721CC07FAB91C1143E71B21BB3E20BC6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestController.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>758DA1CBC128A58D65023AE2318D1257</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIImage+Compare.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Compare.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>772A3FF3D8A39494464ADDC12B7096CF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>BA7FB690F3A08BB1E33865B1F9974E46</string>
-			<key>buildPhases</key>
-			<array>
-				<string>E6598C946CB8C42DFF6CB23648937553</string>
-				<string>348965C17AB71570477C9F47F95328DF</string>
-				<string>0EF4B33C5C9AD4642E9C4AB1DA204623</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>productName</key>
-			<string>FBSnapshotTestCase</string>
-			<key>productReference</key>
-			<string>9B1E8E8DE1173A367F528261E29031FC</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>7A6A043D1AE8F9F9E6C5A288BD39969B</key>
+		<key>72CEECBE6C004169C5C4FE0D15A41891</key>
 		<dict>
 			<key>fileRef</key>
-			<string>8FFF164347135F299BBFBEAACFEDD74D</string>
+			<string>0F6D13E2AF1F1CBBAA9BEBB8644581DC</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
@@ -1250,16 +1168,58 @@
 				</array>
 			</dict>
 		</dict>
-		<key>7B6E23CF19A4CD21BECE0533B63E2ABD</key>
+		<key>73DB4A373C2E30994769A1532908E2B0</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-frameworks.sh</string>
+			<string>UIView+Recursive.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>78443181B0ECDB1FA31893F408FBFAD3</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5A8A3B14D9F02532A58AE784490B6D49</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>7AAEDCC181D01EF5FCB2C234D58A5D50</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSObject+LeaksInspector.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>7CA106A0C5AD6D14608D75AEBCE0938E</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>40CC771358BE7236CDD86C0AD4405280</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>LYLeaksInspector</string>
+			<key>path</key>
+			<string>LYLeaksInspector</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
@@ -1268,178 +1228,17 @@
 			<key>children</key>
 			<array>
 				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>B8E5473B8EB5233102C93432CDB1A1D5</string>
-				<string>14B8B9B15ECBE87983FF987239AB2D7B</string>
-				<string>FBD2D672921284E66F309CA3462F84D6</string>
-				<string>BEA6E7329F78D2856CDDF9FEA960D21A</string>
-				<string>816EA2E282D79194B907748C3BA99550</string>
+				<string>8E13FFA9E43E5F14CAF2B432116A3223</string>
+				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
+				<string>12E8FED76DDFEA5C9CC7CBD50B0E1C40</string>
+				<string>14B0F36C7B08E1BA269EA7F08DC0AD9F</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>816EA2E282D79194B907748C3BA99550</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>14D67C6AB4F5F1A468B743770DD565EE</string>
-				<string>CC76CC2F30F7AD28DD302207BBD5EB5E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>853C84AC883B6FC690E82525E7ECB377</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>XCTest.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/XCTest.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>8564BFD2E46D888A9156C00E50000896</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8575814874877CB96D9A13C7BBD6AB1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Diff.m</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Diff.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85DF0505CE4EC7D7AD628FD1E99AC70D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1622EB4942218367B67DD591664D2DE5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>89C0BAABA3BED728F7AF9D9DB7BA9798</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_LYLeaksInspector_Tests.framework</string>
-			<key>path</key>
-			<string>Pods_LYLeaksInspector_Tests.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>8AC9643893E137DE5E32F231B8A240F1</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F2B58D5BA3EB09C98A4C815311C792DC</string>
-				<string>49FE25CB0990A912973D24121C151E6A</string>
-				<string>4396A99C0AAE10F414B527B80FC1DACB</string>
-				<string>17BE969126FF0EDA7A0F3522919CB4C5</string>
-				<string>721CC07FAB91C1143E71B21BB3E20BC6</string>
-				<string>23A5D64A8DED45B714F8DF2F0AFAC719</string>
-				<string>B2AD796E0811AED05EEA7E020A7947B0</string>
-				<string>CD9224AD343A9456F0D12695DF9141B2</string>
-				<string>758DA1CBC128A58D65023AE2318D1257</string>
-				<string>4F88C74D733720F86716DAF1B048177E</string>
-				<string>384A1B103C9D183D6A1C08DD450C61CA</string>
-				<string>8575814874877CB96D9A13C7BBD6AB1A</string>
-				<string>175E07AEBDAD15ABC9427FE1FC5774C5</string>
-				<string>D62B8F28F934EDA4C96FE5B166C7AF0E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Core</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8CC0798F52F2F5BB3BCF8B43BF45B25F</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>target</key>
-			<string>D4580B25E1694117D0D6CC26820B3A17</string>
-			<key>targetProxy</key>
-			<string>5683507F35289564275992CB54F0DFC1</string>
-		</dict>
-		<key>8CDE673C8BA909DDDDB8BFAE9848BFC0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8DC6B8BCDB4CF593B17FA77DEEC9526F</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E7E58BF435D9B722F1D5B3247584B74D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>8DECB970785FCBAB4A6315DAA0DB0DF2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6DD9EBDCF7067F613B689BB4D2D7F07D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8EA472645A22F51FCD1F9C85553E8D7F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8FFF164347135F299BBFBEAACFEDD74D</key>
+		<key>8532B7A7A77C2B3935194435FF09A427</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1448,14 +1247,151 @@
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>LYLeaksInspector-umbrella.h</string>
+			<string>LYLDHeapStackTableViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>90B7E2F40E17730F3E28449559B458E0</key>
+		<key>85DF0505CE4EC7D7AD628FD1E99AC70D</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D62B8F28F934EDA4C96FE5B166C7AF0E</string>
+			<string>CCD601ABD3DC7EFFA50FD05DAA206A3E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>8671194671CA396B2E058AA69FA1FB00</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDStringListController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>88A0D3860E1DDE6F862A454AF7402C38</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
+			<array>
+				<string>8C45D78B29FDE13DDAEADD0C7AF86E57</string>
+				<string>BD2FFC3AF6004DF376AE984260C11CE2</string>
+				<string>915EFAD17ECC24816F824D5B7EF38500</string>
+				<string>0576E6DE539AE29EA00D8C28C15BA71F</string>
+				<string>CE55B20FDF8DD38CB3CFDC0610E79E33</string>
+				<string>952D48E9561E2367E0B33682492D51E6</string>
+				<string>C401A491B6732FCAF166E4470725EE0B</string>
+				<string>3B049A507980DD0BF1D2D6CD4D104673</string>
+				<string>B0B1D0FD46C53A4F672F68C5747D9E29</string>
+				<string>12270CCFA157CBFAA58052C8F1879A6D</string>
+				<string>D830DC7543BAAC90F6F352504E24013F</string>
+				<string>A0B0E8B73325BD0D9165ACBC0AE3450F</string>
+				<string>E0BA3F78EE664F1D71A3D4AB0366639A</string>
+				<string>FF91BA4A3964C47AB6FBF19FB3FD2577</string>
+				<string>90C3F5BD4E6C4439AF5F9A8FA08D1AB4</string>
+				<string>F112F9B7C260C5A4C8F71EB04E4CDE97</string>
+				<string>FDAF013D4B6597D6725556FA579A6001</string>
+				<string>72CEECBE6C004169C5C4FE0D15A41891</string>
+				<string>0BC9F0C81A8FF49DB722F6693309663C</string>
+				<string>92B4621D904A9004E50B22C5406E5698</string>
+				<string>2CAB4793F0395A7340E83F91BFEE1D84</string>
+				<string>57F0DE29C3E609E6B227F7BBB93A9879</string>
+				<string>88D6E17839ECBE7D5607A9A797174884</string>
+				<string>0C31AA61CBFC9BC1D8C348431A8E1CE0</string>
+				<string>AB7491715D66F40A2E248ADA5FA0E0E8</string>
+				<string>78443181B0ECDB1FA31893F408FBFAD3</string>
+				<string>F197669F1FF7CDBB54D3948FC7547C4F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXHeadersBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
+		</dict>
+		<key>88D6E17839ECBE7D5607A9A797174884</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C144DDDBA8F9CCC16750C762EDEDC79F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>89868EFA9533576054AEF522D9452C69</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDTableViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8C45D78B29FDE13DDAEADD0C7AF86E57</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F1FCDED5CC25F13B150BB035FA582A07</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>8E13FFA9E43E5F14CAF2B432116A3223</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>678BAE6990A8161921F5808C03E00AE4</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Development Pods</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>8F12599292969DDEB0DDDE80EC24074F</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>657D6541B33180839E9D25D165EBFD5A</string>
+				<string>C6FF2FB67F3DBC4AB4EB1BF505961520</string>
+				<string>B34C324DC852EB515D070E8F6722FE92</string>
+				<string>29EC8D897639F8B69A1A099938523599</string>
+				<string>CCD601ABD3DC7EFFA50FD05DAA206A3E</string>
+				<string>D1ED22E01B532C5D47D1DF2DA2FECAB0</string>
+				<string>ED0995CF9FA68AB5B51B56C6596C2FE5</string>
+				<string>C693C60FB3A1927AC1840EFD8A30C66F</string>
+				<string>314743A4DEDB31903449A4709CAD82EA</string>
+				<string>ABC58B8C6E69A3FD9D7BAA71986F2327</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Pods-LYLeaksInspector_Example</string>
+			<key>path</key>
+			<string>Target Support Files/Pods-LYLeaksInspector_Example</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>9037A66747F055DE9423B7473DE84056</key>
+		<dict>
+			<key>fileRef</key>
+			<string>15572F5584F7829BBD4B04CAE6BA69D8</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
@@ -1468,71 +1404,116 @@
 			<key>proxyType</key>
 			<string>1</string>
 			<key>remoteGlobalIDString</key>
-			<string>D4580B25E1694117D0D6CC26820B3A17</string>
+			<string>2316A95395FBED7CBABAD73F608BF8EA</string>
 			<key>remoteInfo</key>
 			<string>LYLeaksInspector</string>
 		</dict>
-		<key>92A52C6898F388494AD0D69B53B68ED0</key>
+		<key>90C3F5BD4E6C4439AF5F9A8FA08D1AB4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>02473D424E91D46FB0E14ECBF6BA1AA3</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>915EFAD17ECC24816F824D5B7EF38500</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8532B7A7A77C2B3935194435FF09A427</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>92B4621D904A9004E50B22C5406E5698</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F71E38737D3D97C9FAB79B2636689CCE</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>952D48E9561E2367E0B33682492D51E6</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F68C9C3E25B59B3E2657DF9A1A3297AA</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>96D41E55EC6B95913E231727F40E5A7E</key>
+		<dict>
+			<key>fileRef</key>
+			<string>38D333E92E5F577974F0F38A1DFF48B5</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>989CDB10D31D1E01CC93E884C8E9E440</key>
+		<dict>
+			<key>fileRef</key>
+			<string>AB90B761949C5EF7DF07AA7E51E0369A</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>9999CA8AD040B5486AE7852CA76CE127</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>LYLeaksInspector.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>94FDCD720E559DF4C535B3A8E93080C3</key>
+		<key>9D637B960BEAB076EC2AFD43F1B85579</key>
 		<dict>
-			<key>fileRef</key>
-			<string>17BE969126FF0EDA7A0F3522919CB4C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>9736F8749C3E10482FED30EE37126C9E</key>
-		<dict>
-			<key>buildConfigurations</key>
+			<key>children</key>
 			<array>
-				<string>278476E766778D6390479281E61988ED</string>
-				<string>B433B8FE42353502B6A54C6FB36AE3EE</string>
+				<string>5226AB559721558188C61B973D704867</string>
+				<string>D47BA1AE2F15BA316A3E459D11599BAB</string>
 			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
 			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>9B1E8E8DE1173A367F528261E29031FC</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
+			<string>PBXGroup</string>
 			<key>name</key>
-			<string>FBSnapshotTestCase.framework</string>
+			<string>DebugUtils</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase.framework</string>
+			<string>DebugUtils</string>
 			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>9DDDFEE9175C2EE1D002C09F136C432B</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>2BC909506384AB9616BC20B45D411891</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>9F2E254C282D23FFEF68A07F5F0559D6</key>
 		<dict>
@@ -1541,80 +1522,125 @@
 			<key>name</key>
 			<string>LYLeaksInspector</string>
 			<key>target</key>
-			<string>D4580B25E1694117D0D6CC26820B3A17</string>
+			<string>2316A95395FBED7CBABAD73F608BF8EA</string>
 			<key>targetProxy</key>
 			<string>90B88A5D5B2369A6E2ACF391623DB51F</string>
 		</dict>
-		<key>9FF94D3A7F4EC2B7BB01ED2A1EAFF9D8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>C2C01AA7854D2694573BBC72E0621EBB</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Tests/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Tests/Pods-LYLeaksInspector_Tests.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_LYLeaksInspector_Tests</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>A38506CF4700DA06E89C871D8388D83E</key>
+		<key>A0B0E8B73325BD0D9165ACBC0AE3450F</key>
 		<dict>
 			<key>fileRef</key>
-			<string>2393D1A899C707F79A64672C46ED238F</string>
+			<string>06E9A426D1A9301485AAFFEC479A3588</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A500F0D6AAB1F1214FBD423BB7F2276A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B669737961DBE9E6C18E4D4EEFB144F</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>A4D869A06935AE9D86C5F736E766E634</key>
+		<key>A755106E47197E353B4B08EE93F5C826</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSObject+MRCDeallocInspect.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>A7C44AE003B52ECE449979F3C3C6BD59</key>
+		<dict>
+			<key>fileRef</key>
+			<string>C693C60FB3A1927AC1840EFD8A30C66F</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>A8598AA29F273D202595EBDC92E6A60A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5F7F141402AE1AAD0FEE29B926434631</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>A8802DC741AD079C5C8BB5DECB4BED67</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>F1FCDED5CC25F13B150BB035FA582A07</string>
+				<string>D97B273355C5C2CF72F2CE4731AD7DE0</string>
+				<string>BDAB7C0B7A13203C8665588AE446C5E7</string>
+				<string>A755106E47197E353B4B08EE93F5C826</string>
+				<string>C144DDDBA8F9CCC16750C762EDEDC79F</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>MRC</string>
+			<key>path</key>
+			<string>MRC</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AB6DC27566F9B3A47F2EF5A0E5DBB2D7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDHeapDetailTableViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>AB7491715D66F40A2E248ADA5FA0E0E8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>B56FEB122E99EA980E6882C6553542DD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>AB90B761949C5EF7DF07AA7E51E0369A</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSObject+MRCDeallocInspect.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>ABC58B8C6E69A3FD9D7BAA71986F2327</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -1623,85 +1649,61 @@
 			<key>lastKnownFileType</key>
 			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.debug.xcconfig</string>
+			<string>Pods-LYLeaksInspector_Example.release.xcconfig</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7C44AE003B52ECE449979F3C3C6BD59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>BEB36755DB4AEFD561F6C002708D8888</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A7F9AAC65FC2D87C34EA9D6A5ACB4401</key>
-		<dict>
-			<key>fileRef</key>
-			<string>F2B58D5BA3EB09C98A4C815311C792DC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>ACA986D09F2ADCDF38C871D9B903EDA0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C006493B2CEBDAA04A731DCB71BBA220</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
 		</dict>
 		<key>AE20763545CD99EDF1A47FC4952A32AB</key>
 		<dict>
 			<key>fileRef</key>
-			<string>D31B096AB4A0164C61B63F0E59AD76C9</string>
+			<string>3E4E89230EF59BC255123B67864ACF77</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 		</dict>
-		<key>AEBA7273A59F2B043A31661C1CB1604C</key>
+		<key>B0B1D0FD46C53A4F672F68C5747D9E29</key>
 		<dict>
 			<key>fileRef</key>
-			<string>384A1B103C9D183D6A1C08DD450C61CA</string>
+			<string>89868EFA9533576054AEF522D9452C69</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
 			<key>settings</key>
 			<dict>
 				<key>ATTRIBUTES</key>
 				<array>
-					<string>Private</string>
+					<string>Public</string>
 				</array>
 			</dict>
 		</dict>
-		<key>B2AD796E0811AED05EEA7E020A7947B0</key>
+		<key>B22509E842D4300AB8ED7203BCCF0992</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>UIApplication+StrictKeyWindow.h</string>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.h</string>
+			<string>LYLDTableViewCell.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>B34C324DC852EB515D070E8F6722FE92</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text</string>
+			<key>path</key>
+			<string>Pods-LYLeaksInspector_Example-acknowledgements.markdown</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
 		<key>B35BB33EE77BE137F438C65E223D84C1</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>8EA472645A22F51FCD1F9C85553E8D7F</string>
+			<string>ABC58B8C6E69A3FD9D7BAA71986F2327</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -1773,120 +1775,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>B3BE4CBFBB50CF48FCDEFB5806172213</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D31B096AB4A0164C61B63F0E59AD76C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>B433B8FE42353502B6A54C6FB36AE3EE</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>BEC8258A863840FFA952C6A8968C7324</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>8.3</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>LYLeaksInspector</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>B519E0F1D0ED16A9F0C7CEDFB191CFEA</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>D24F54F2075AB6B1740EBA67405D735A</string>
-			<key>remoteInfo</key>
-			<string>LYLeaksInspector-LYLeaksInspector</string>
-		</dict>
-		<key>B8E5473B8EB5233102C93432CDB1A1D5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>2250278EAD2D0D5D988FD282732660FF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B8F06C50ECC2455A15046E2612630C77</key>
+		<key>B56FEB122E99EA980E6882C6553542DD</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Info.plist</string>
+			<string>UIView+LeaksInspector.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B9778AF26F34A05A3C7C8D6C5EF47572</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>7A6A043D1AE8F9F9E6C5A288BD39969B</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
 		</dict>
 		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
 		<dict>
@@ -1905,57 +1805,44 @@
 			<key>xcLanguageSpecificationIdentifier</key>
 			<string>xcode.lang.ruby</string>
 		</dict>
-		<key>BA7FB690F3A08BB1E33865B1F9974E46</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>2F73BBAF40A73B9FAF1F90C7DD60B693</string>
-				<string>CC0A504AF8FBBF1EA64EFA5943B7D3F3</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>BAC1D925488EEB59175145E1F8DB65BC</key>
+		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>4C4C430B241A67C7A6029E78EB92FF9E</string>
+				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
+			<string>Frameworks</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BB79CD1026E3E342BFD964F46ECAB279</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>target</key>
-			<string>772A3FF3D8A39494464ADDC12B7096CF</string>
-			<key>targetProxy</key>
-			<string>D002DDA90FF880E16573A2721DE9C21F</string>
-		</dict>
-		<key>BD3C7ABB0598A03B729F141633113043</key>
+		<key>BCC3FE23604C1846EF5B1A020DDFBD06</key>
 		<dict>
 			<key>fileRef</key>
-			<string>49FE25CB0990A912973D24121C151E6A</string>
+			<string>DF8ECC0E6BF9D795A0955640CC94B033</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+		</dict>
+		<key>BD2FFC3AF6004DF376AE984260C11CE2</key>
+		<dict>
+			<key>fileRef</key>
+			<string>CA226F278EF7EEF6A834893890DD4B75</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 		<key>BD808B55DDF71F0C3CE0C939E72F4301</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>A4D869A06935AE9D86C5F736E766E634</string>
+			<string>314743A4DEDB31903449A4709CAD82EA</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2014,24 +1901,82 @@
 			<key>name</key>
 			<string>Debug</string>
 		</dict>
-		<key>BEA6E7329F78D2856CDDF9FEA960D21A</key>
+		<key>BDAB7C0B7A13203C8665588AE446C5E7</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYNotificationMapper.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
 		<dict>
 			<key>children</key>
 			<array>
-				<string>9B1E8E8DE1173A367F528261E29031FC</string>
-				<string>5A11E26689CA5A86E73609F8A337F893</string>
-				<string>65D71FC798CF2687B7FCCB4DADFBD19C</string>
-				<string>D6F34897B2D9C4E4C515ECE9983FD8C2</string>
-				<string>89C0BAABA3BED728F7AF9D9DB7BA9798</string>
+				<string>3E4E89230EF59BC255123B67864ACF77</string>
 			</array>
 			<key>isa</key>
 			<string>PBXGroup</string>
 			<key>name</key>
-			<string>Products</string>
+			<string>iOS</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BEB36755DB4AEFD561F6C002708D8888</key>
+		<key>BFD8F7D074BD70D252E0281925A18E98</key>
+		<dict>
+			<key>explicitFileType</key>
+			<string>wrapper.framework</string>
+			<key>includeInIndex</key>
+			<string>0</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>name</key>
+			<string>LYLeaksInspector.framework</string>
+			<key>path</key>
+			<string>LYLeaksInspector.framework</string>
+			<key>sourceTree</key>
+			<string>BUILT_PRODUCTS_DIR</string>
+		</dict>
+		<key>C144DDDBA8F9CCC16750C762EDEDC79F</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSObject+MRCInstanceValue.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>C401A491B6732FCAF166E4470725EE0B</key>
+		<dict>
+			<key>fileRef</key>
+			<string>8671194671CA396B2E058AA69FA1FB00</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>C4906C63064E183D9F61B5A0EE9C71EE</key>
+		<dict>
+			<key>fileRef</key>
+			<string>13C5FBCA339E9D0DB36414B2310D5BCD</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>C693C60FB3A1927AC1840EFD8A30C66F</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2044,76 +1989,21 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>BEC8258A863840FFA952C6A8968C7324</key>
+		<key>C6FF2FB67F3DBC4AB4EB1BF505961520</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
 			<key>path</key>
-			<string>LYLeaksInspector.xcconfig</string>
+			<string>Pods-LYLeaksInspector_Example.modulemap</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>C006493B2CEBDAA04A731DCB71BBA220</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLeaksInspector-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2744564138738DE4B8FCCE7DFEE3FD5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C2C01AA7854D2694573BBC72E0621EBB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C5C081A0337FC266B8C37E0D858AB743</key>
-		<dict>
-			<key>fileRef</key>
-			<string>175E07AEBDAD15ABC9427FE1FC5774C5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Private</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CC0A504AF8FBBF1EA64EFA5943B7D3F3</key>
+		<key>C92080D1B3BC37BF31DBE2B67FB134A5</key>
 		<dict>
 			<key>baseConfigurationReference</key>
-			<string>E25DF0E3013D15E06F5E0CE782762B26</string>
+			<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
 			<key>buildSettings</key>
 			<dict>
 				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
@@ -2131,9 +2021,9 @@
 				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
 				<string>YES</string>
 				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase-prefix.pch</string>
+				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch</string>
 				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/FBSnapshotTestCase/Info.plist</string>
+				<string>Target Support Files/LYLeaksInspector/Info.plist</string>
 				<key>INSTALL_PATH</key>
 				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
 				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
@@ -2145,11 +2035,11 @@
 					<string>@loader_path/Frameworks</string>
 				</array>
 				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/FBSnapshotTestCase/FBSnapshotTestCase.modulemap</string>
+				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap</string>
 				<key>MTL_ENABLE_DEBUG_INFO</key>
 				<string>NO</string>
 				<key>PRODUCT_NAME</key>
-				<string>FBSnapshotTestCase</string>
+				<string>LYLeaksInspector</string>
 				<key>SDKROOT</key>
 				<string>iphoneos</string>
 				<key>SKIP_INSTALL</key>
@@ -2166,47 +2056,20 @@
 			<key>name</key>
 			<string>Release</string>
 		</dict>
-		<key>CC76CC2F30F7AD28DD302207BBD5EB5E</key>
+		<key>CA226F278EF7EEF6A834893890DD4B75</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>92A52C6898F388494AD0D69B53B68ED0</string>
-				<string>4AC44539ECAD5FB36C55D17B41397F14</string>
-				<string>45DE3340D3D3D24309085EBEE3CECDA8</string>
-				<string>C2744564138738DE4B8FCCE7DFEE3FD5</string>
-				<string>56755658CF7446DDD44BD53504A6BC93</string>
-				<string>D584C5CD277D04975A8F3F7482FCDC58</string>
-				<string>6F2725E73D6CE752DBED9A4267752475</string>
-				<string>D852C8207C8757C7FF96DC8DFFB697C1</string>
-				<string>25776C467833E40E52D4EED5BE6855F9</string>
-				<string>C2C01AA7854D2694573BBC72E0621EBB</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LYLeaksInspector_Tests</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>Target Support Files/Pods-LYLeaksInspector_Tests</string>
+			<string>LYLDHeapDetailTableViewController.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>CD3FB7D37E46A5379C926728A416D78E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D31B096AB4A0164C61B63F0E59AD76C9</string>
-				<string>0528444EFC68619AD1FEB8A7CD4A01BA</string>
-				<string>2393D1A899C707F79A64672C46ED238F</string>
-				<string>853C84AC883B6FC690E82525E7ECB377</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CD9224AD343A9456F0D12695DF9141B2</key>
+		<key>CCD601ABD3DC7EFFA50FD05DAA206A3E</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2214,25 +2077,38 @@
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
 			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIApplication+StrictKeyWindow.m</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIApplication+StrictKeyWindow.m</string>
+			<string>Pods-LYLeaksInspector_Example-dummy.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D002DDA90FF880E16573A2721DE9C21F</key>
+		<key>CDECDBA75606125D75F857B8AAF57931</key>
 		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
+			<key>fileRef</key>
+			<string>DEB2491BFF0B3FD7A4B9832E2D4A240C</string>
 			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>772A3FF3D8A39494464ADDC12B7096CF</string>
-			<key>remoteInfo</key>
-			<string>FBSnapshotTestCase</string>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>CE55B20FDF8DD38CB3CFDC0610E79E33</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4BC6CA37ADB320EA2D9C2E74120E4994</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>CF413275655A21F858C16BDB024CA1DD</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5B43E3472B51727C4FC96188459C6955</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
 		</dict>
 		<key>D10910BC300EDD543E099090E77BF3B1</key>
 		<dict>
@@ -2247,43 +2123,18 @@
 			<key>runOnlyForDeploymentPostprocessing</key>
 			<string>0</string>
 		</dict>
-		<key>D24F54F2075AB6B1740EBA67405D735A</key>
+		<key>D1ED22E01B532C5D47D1DF2DA2FECAB0</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>586FC766C7C0D2106A583C3419FEF3ED</string>
-			<key>buildPhases</key>
-			<array>
-				<string>1C33D9EEC757EE000166BA2AF6A93C7B</string>
-				<string>F2DA1751C77FFEEA7284B49E49890AAE</string>
-				<string>448D77B5227869A140E1E4F87DD89491</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LYLeaksInspector-LYLeaksInspector</string>
-			<key>productName</key>
-			<string>LYLeaksInspector-LYLeaksInspector</string>
-			<key>productReference</key>
-			<string>5A11E26689CA5A86E73609F8A337F893</string>
-			<key>productType</key>
-			<string>com.apple.product-type.bundle</string>
-		</dict>
-		<key>D31B096AB4A0164C61B63F0E59AD76C9</key>
-		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
+			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
+			<string>Pods-LYLeaksInspector_Example-frameworks.sh</string>
 			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
+			<string>&lt;group&gt;</string>
 		</dict>
 		<key>D41D8CD98F00B204E9800998ECF8427E</key>
 		<dict>
@@ -2311,7 +2162,7 @@
 			<key>mainGroup</key>
 			<string>7DB346D0F39D3F0E887471402A8071AB</string>
 			<key>productRefGroup</key>
-			<string>BEA6E7329F78D2856CDDF9FEA960D21A</string>
+			<string>12E8FED76DDFEA5C9CC7CBD50B0E1C40</string>
 			<key>projectDirPath</key>
 			<string></string>
 			<key>projectReferences</key>
@@ -2320,42 +2171,184 @@
 			<string></string>
 			<key>targets</key>
 			<array>
-				<string>772A3FF3D8A39494464ADDC12B7096CF</string>
-				<string>D4580B25E1694117D0D6CC26820B3A17</string>
-				<string>D24F54F2075AB6B1740EBA67405D735A</string>
+				<string>2316A95395FBED7CBABAD73F608BF8EA</string>
 				<string>0BFD7287EDDC26951C57439E029603BF</string>
-				<string>1D6594EF143A1F10F8A37C2E8D0287F5</string>
 			</array>
 		</dict>
-		<key>D4580B25E1694117D0D6CC26820B3A17</key>
+		<key>D47BA1AE2F15BA316A3E459D11599BAB</key>
 		<dict>
-			<key>buildConfigurationList</key>
-			<string>9736F8749C3E10482FED30EE37126C9E</string>
-			<key>buildPhases</key>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLeaksInspector.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D581535FFE1F423D91A8E0391462313E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSObject+LeaksInspector.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D5E81FC5E7C1166BB0D1FC7FF9E32D19</key>
+		<dict>
+			<key>fileRef</key>
+			<string>0058765FE662FF8F33505AE1DA2D95F1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>D830DC7543BAAC90F6F352504E24013F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>025121EAC57C7C3E0AC2447285183020</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>D89AA668780A13F8B70BEB0198AE4248</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDSnapshotViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D97B273355C5C2CF72F2CE4731AD7DE0</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLeaksDefined.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D97F7D7171C2FF425BB85810F6772540</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>NSNotificationCenter+ObserverInspect.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>D9A65E136AB6AB98F749479BA73F6E88</key>
+		<dict>
+			<key>buildActionMask</key>
+			<string>2147483647</string>
+			<key>files</key>
 			<array>
-				<string>705E731A2FAF146E3D8FB70BEC38BF03</string>
-				<string>8DC6B8BCDB4CF593B17FA77DEEC9526F</string>
-				<string>2B4A542C031CB023CD0A59AE9A888D98</string>
-				<string>B9778AF26F34A05A3C7C8D6C5EF47572</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>E722BD38E988523EF96F71870BA74471</string>
+				<string>13798A4A445349E03AADA1ADDE3BBEB8</string>
 			</array>
 			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>productName</key>
-			<string>LYLeaksInspector</string>
-			<key>productReference</key>
-			<string>65D71FC798CF2687B7FCCB4DADFBD19C</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
+			<string>PBXFrameworksBuildPhase</string>
+			<key>runOnlyForDeploymentPostprocessing</key>
+			<string>0</string>
 		</dict>
-		<key>D584C5CD277D04975A8F3F7482FCDC58</key>
+		<key>DBC562873AA39DDC57544D1DE7FD35FA</key>
+		<dict>
+			<key>fileRef</key>
+			<string>296CFC9A7CFF46AF8A3C9208ED583D9D</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>DEB2491BFF0B3FD7A4B9832E2D4A240C</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDPropertiesViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>DF8ECC0E6BF9D795A0955640CC94B033</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDWindowController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0934C58066C1C14132C7F151E4F352E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
+			<key>path</key>
+			<string>LYLDHeapStackTableViewController.m</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>E0BA3F78EE664F1D71A3D4AB0366639A</key>
+		<dict>
+			<key>fileRef</key>
+			<string>F6B52A676E0EFD8253F0581B7A009A88</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>E2E5B4BFD0F5DB88530947F54E8947A8</key>
+		<dict>
+			<key>fileRef</key>
+			<string>4E8EBC9EB8974EF476E71E01BE882C91</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>E4857BB5F692A5A6534DEEA8CE938176</key>
+		<dict>
+			<key>fileRef</key>
+			<string>7AAEDCC181D01EF5FCB2C234D58A5D50</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>ED0995CF9FA68AB5B51B56C6596C2FE5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2364,26 +2357,155 @@
 			<key>lastKnownFileType</key>
 			<string>text.script.sh</string>
 			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-frameworks.sh</string>
+			<string>Pods-LYLeaksInspector_Example-resources.sh</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D62B8F28F934EDA4C96FE5B166C7AF0E</key>
+		<key>F112F9B7C260C5A4C8F71EB04E4CDE97</key>
+		<dict>
+			<key>fileRef</key>
+			<string>5226AB559721558188C61B973D704867</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F197669F1FF7CDBB54D3948FC7547C4F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>3F6D862890C90D16CF687A7E74A3B4F4</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>F1FCDED5CC25F13B150BB035FA582A07</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
 			<key>isa</key>
 			<string>PBXFileReference</string>
 			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>name</key>
-			<string>UIImage+Snapshot.m</string>
+			<string>sourcecode.c.h</string>
 			<key>path</key>
-			<string>FBSnapshotTestCase/Categories/UIImage+Snapshot.m</string>
+			<string>LYHeapObjectEnumerator.h</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>D6F34897B2D9C4E4C515ECE9983FD8C2</key>
+		<key>F259EE8D31957B907391D0F833B35E4E</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>text.plist.xml</string>
+			<key>path</key>
+			<string>Info.plist</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F4F19C154BC2F205DC9DC2EA53FE2DC0</key>
+		<dict>
+			<key>fileRef</key>
+			<string>12A8205B599EDD01C33E5DC2F3C47659</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>COMPILER_FLAGS</key>
+				<string>-fno-objc-arc</string>
+			</dict>
+		</dict>
+		<key>F68C9C3E25B59B3E2657DF9A1A3297AA</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLDSnapshotViewController.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F6B52A676E0EFD8253F0581B7A009A88</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>LYLeaksDebugWindow.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F71E2B64280739452A68950E8A86BA20</key>
+		<dict>
+			<key>children</key>
+			<array>
+				<string>54D860A238876494443C8657EFACF4FA</string>
+				<string>9D637B960BEAB076EC2AFD43F1B85579</string>
+				<string>A8802DC741AD079C5C8BB5DECB4BED67</string>
+				<string>1EF7C8A6956C965A60B2E4D28FD1E6AC</string>
+			</array>
+			<key>isa</key>
+			<string>PBXGroup</string>
+			<key>name</key>
+			<string>Classes</string>
+			<key>path</key>
+			<string>Classes</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F71E38737D3D97C9FAB79B2636689CCE</key>
+		<dict>
+			<key>includeInIndex</key>
+			<string>1</string>
+			<key>isa</key>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.h</string>
+			<key>path</key>
+			<string>NSNotificationCenter+ObserverInspect.h</string>
+			<key>sourceTree</key>
+			<string>&lt;group&gt;</string>
+		</dict>
+		<key>F8C469584A527B4A7FBCDFEB601510B4</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D47BA1AE2F15BA316A3E459D11599BAB</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>F92A2BD95DF45F53678474707906B69F</key>
+		<dict>
+			<key>fileRef</key>
+			<string>E0934C58066C1C14132C7F151E4F352E</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA3C6524250651D15A72F02000A0C22D</key>
+		<dict>
+			<key>fileRef</key>
+			<string>554D3EF841E3B33C21F8507E045F0FF1</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FA7AFE949D68EC2E19FDF1D6EC4A3060</key>
 		<dict>
 			<key>explicitFileType</key>
 			<string>wrapper.framework</string>
@@ -2398,162 +2520,7 @@
 			<key>sourceTree</key>
 			<string>BUILT_PRODUCTS_DIR</string>
 		</dict>
-		<key>D852C8207C8757C7FF96DC8DFFB697C1</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Tests-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>DD30E5B9BE40CE7D2DEB812E1E170DD7</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>08BE39E8A6BF986160FAD67AC4D890E9</string>
-				<string>E25DF0E3013D15E06F5E0CE782762B26</string>
-				<string>8CDE673C8BA909DDDDB8BFAE9848BFC0</string>
-				<string>0A4C0F64AD3D2EF17F9447806B7DB433</string>
-				<string>561B00C22FB1E3E7D31E7BEB2FD4F332</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>../Target Support Files/FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E25DF0E3013D15E06F5E0CE782762B26</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E44BA8216CB73A40822467A02D7D847B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>758DA1CBC128A58D65023AE2318D1257</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Private</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E529CF6315E6EB33FBA413EDC4BD9CF7</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8CDE673C8BA909DDDDB8BFAE9848BFC0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E5EFBFEA24204492935B2FB2BA7D21B6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CD9224AD343A9456F0D12695DF9141B2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E6598C946CB8C42DFF6CB23648937553</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>E529CF6315E6EB33FBA413EDC4BD9CF7</string>
-				<string>BD3C7ABB0598A03B729F141633113043</string>
-				<string>94FDCD720E559DF4C535B3A8E93080C3</string>
-				<string>58CA52BCED9F6E2A9CCE4DF19E873D3E</string>
-				<string>8DECB970785FCBAB4A6315DAA0DB0DF2</string>
-				<string>E5EFBFEA24204492935B2FB2BA7D21B6</string>
-				<string>500CFFB619BA25FB57B6AF48F8CCD8F3</string>
-				<string>3C85E62EBD0D660C3DB557FABF9B8E10</string>
-				<string>90B7E2F40E17730F3E28449559B458E0</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>E722BD38E988523EF96F71870BA74471</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LYLeaksInspector-LYLeaksInspector</string>
-			<key>target</key>
-			<string>D24F54F2075AB6B1740EBA67405D735A</string>
-			<key>targetProxy</key>
-			<string>B519E0F1D0ED16A9F0C7CEDFB191CFEA</string>
-		</dict>
-		<key>E7E58BF435D9B722F1D5B3247584B74D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D31B096AB4A0164C61B63F0E59AD76C9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F294CE16D0BB89335EB3400EDAA363F5</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8AC9643893E137DE5E32F231B8A240F1</string>
-				<string>DD30E5B9BE40CE7D2DEB812E1E170DD7</string>
-				<string>58A1305D922FF21E64916EBF07C5A689</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2B58D5BA3EB09C98A4C815311C792DC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>name</key>
-			<string>FBSnapshotTestCase.h</string>
-			<key>path</key>
-			<string>FBSnapshotTestCase/FBSnapshotTestCase.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F2DA1751C77FFEEA7284B49E49890AAE</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>FB7E361F85082365184DD68ADA08A58B</key>
+		<key>FD69BC9ED1946E564E2DBF95B61493F5</key>
 		<dict>
 			<key>includeInIndex</key>
 			<string>1</string>
@@ -2566,40 +2533,53 @@
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FBD2D672921284E66F309CA3462F84D6</key>
+		<key>FD6E2F822163C97DE6E341AFA9BBD432</key>
 		<dict>
-			<key>children</key>
-			<array>
-				<string>F294CE16D0BB89335EB3400EDAA363F5</string>
-			</array>
+			<key>includeInIndex</key>
+			<string>1</string>
 			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FC1F37AD9B363A1CBB5A66EACB8615B2</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BAC1D925488EEB59175145E1F8DB65BC</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
+			<string>PBXFileReference</string>
+			<key>lastKnownFileType</key>
+			<string>sourcecode.c.objc</string>
 			<key>path</key>
-			<string>LYLeaksInspector</string>
+			<string>LYLDResponderChainViewController.m</string>
 			<key>sourceTree</key>
 			<string>&lt;group&gt;</string>
 		</dict>
-		<key>FDCF5EFC95C413E5DCF5133D3DFC4170</key>
+		<key>FDAF013D4B6597D6725556FA579A6001</key>
 		<dict>
 			<key>fileRef</key>
-			<string>853C84AC883B6FC690E82525E7ECB377</string>
+			<string>BDAB7C0B7A13203C8665588AE446C5E7</string>
 			<key>isa</key>
 			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
+		</dict>
+		<key>FEB25A608F1A9AD0A6308F338E0EA7BC</key>
+		<dict>
+			<key>fileRef</key>
+			<string>73DB4A373C2E30994769A1532908E2B0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+		</dict>
+		<key>FF91BA4A3964C47AB6FBF19FB3FD2577</key>
+		<dict>
+			<key>fileRef</key>
+			<string>D97B273355C5C2CF72F2CE4731AD7DE0</string>
+			<key>isa</key>
+			<string>PBXBuildFile</string>
+			<key>settings</key>
+			<dict>
+				<key>ATTRIBUTES</key>
+				<array>
+					<string>Public</string>
+				</array>
+			</dict>
 		</dict>
 	</dict>
 	<key>rootObject</key>

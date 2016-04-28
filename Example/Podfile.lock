@@ -1,13 +1,9 @@
 PODS:
-  - FBSnapshotTestCase (2.1.0):
-    - FBSnapshotTestCase/SwiftSupport (= 2.1.0)
-  - FBSnapshotTestCase/Core (2.1.0)
-  - FBSnapshotTestCase/SwiftSupport (2.1.0):
-    - FBSnapshotTestCase/Core
-  - LYLeaksInspector (0.1.0)
+  - LYLeaksInspector (0.1.0):
+    - LYLeaksInspector/no-arc (= 0.1.0)
+  - LYLeaksInspector/no-arc (0.1.0)
 
 DEPENDENCIES:
-  - FBSnapshotTestCase
   - LYLeaksInspector (from `../`)
 
 EXTERNAL SOURCES:
@@ -15,7 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  FBSnapshotTestCase: 366ecd378511d7716c79991cd8067d1eed23578d
-  LYLeaksInspector: b111e8d753ab83bbaa9b693e04f71c5d1b3356da
+  LYLeaksInspector: 140e1aed0e2822beddde0859c67097ec146152b7
 
 COCOAPODS: 0.39.0

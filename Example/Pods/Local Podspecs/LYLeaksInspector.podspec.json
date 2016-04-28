@@ -2,23 +2,29 @@
   "name": "LYLeaksInspector",
   "version": "0.1.0",
   "summary": "A short description of LYLeaksInspector.",
-  "description": "",
-  "homepage": "https://github.com/<GITHUB_USERNAME>/LYLeaksInspector",
+  "description": "LYLeaksInspector Podspec.",
+  "homepage": "https://github.com/linyu92/LYLeaksInspector",
   "license": "MIT",
   "authors": {
     "levi92": "330269630@qq.com"
   },
   "source": {
-    "git": "https://github.com/<GITHUB_USERNAME>/LYLeaksInspector.git",
+    "git": "https://github.com/linyu92/LYLeaksInspector.git",
     "tag": "0.1.0"
   },
   "platforms": {
-    "ios": "8.0"
+    "ios": "7.0"
   },
-  "source_files": "LYLeaksInspector/Classes/**/*",
-  "resource_bundles": {
-    "LYLeaksInspector": [
-      "LYLeaksInspector/Assets/*.png"
-    ]
-  }
+  "source_files": "LYLeaksInspector/Classes/{Categories,DebugUtils,MRC,UI}/*.{h,m}",
+  "ios": {
+    "exclude_files": "LYLeaksInspector/Classes/MRC/*.m"
+  },
+  "requires_arc": true,
+  "subspecs": [
+    {
+      "name": "no-arc",
+      "requires_arc": false,
+      "source_files": "LYLeaksInspector/Classes/MRC/*.m"
+    }
+  ]
 }

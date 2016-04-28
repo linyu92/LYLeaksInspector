@@ -1,11 +1,5 @@
 use_frameworks!
 
 target 'LYLeaksInspector_Example', :exclusive => true do
-  pod 'LYLeaksInspector', :path => '../'
-end
-
-target 'LYLeaksInspector_Tests', :exclusive => true do
-  pod 'LYLeaksInspector', :path => '../'
-
-  pod 'FBSnapshotTestCase'
+    pod 'LYLeaksInspector', :path => '../'
 end

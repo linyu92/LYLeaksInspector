@@ -7,11 +7,14 @@
 //
 
 #import "LYAppDelegate.h"
+#import "LYLeaksInspector.h"
 
 @implementation LYAppDelegate
 
 - (BOOL)application:(UIApplication *)application didFinishLaunchingWithOptions:(NSDictionary *)launchOptions
 {
+    
+    [LYLeaksInspector active];
     // Override point for customization after application launch.
     return YES;
 }
