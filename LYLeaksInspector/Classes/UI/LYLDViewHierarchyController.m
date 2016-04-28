@@ -93,7 +93,7 @@
     }else{
         UIView *view = self.dataSource[indexPath.section][indexPath.row];
         
-        NSString *detail = [NSString stringWithFormat:@"total:%lu --- subviews:%lu",[view subviewsCount:YES],[view subviewsCount:NO]];
+        NSString *detail = [NSString stringWithFormat:@"total:%lu --- subviews:%lu",(unsigned long)[view subviewsCount:YES],(unsigned long)[view subviewsCount:NO]];
         cell.detailTextLabel.text = detail;
         cell.textLabel.text = NSStringFromClass([view class]);
         cell.accessoryType = UITableViewCellAccessoryDisclosureIndicator;

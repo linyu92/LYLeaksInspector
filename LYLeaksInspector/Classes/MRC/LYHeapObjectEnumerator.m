@@ -14,7 +14,6 @@
 #import <objc/runtime.h>
 
 static CFMutableSetRef classesLoadedInRuntime;
-static NSSet *heapShotOfLivingObjects;
 
 
 static NSMutableDictionary *g_maybeLeakObjectDict;
@@ -142,7 +141,7 @@ static inline bool shouldLimitObject(rm_maybe_object_t *tryObject)
 
 + (id)objectForPointer:(NSString *)pointer
 {
-    vm_address_t address = 0;
+    unsigned long address = 0;
     sscanf([pointer UTF8String], "%lX", &address);
     
     rm_maybe_object_t *tryObject = (rm_maybe_object_t *)address;

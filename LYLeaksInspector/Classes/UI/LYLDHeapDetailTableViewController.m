@@ -110,7 +110,7 @@
     
     NSString *item = self.dataSource[indexPath.row];
     if ([item isEqualToString:kCellTitleSubviews]) {
-        NSString *detail = [NSString stringWithFormat:@"total:%lu --- subviews:%lu",[self inspectObjSubviewCount:YES],[self inspectObjSubviewCount:NO]];
+        NSString *detail = [NSString stringWithFormat:@"total:%ld --- subviews:%ld",(unsigned long)[self inspectObjSubviewCount:YES],(unsigned long)[self inspectObjSubviewCount:NO]];
         cell.detailTextLabel.text = detail;
     }else{
         cell.detailTextLabel.text = nil;

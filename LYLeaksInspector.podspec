@@ -9,10 +9,10 @@
 Pod::Spec.new do |s|
   s.name             = "LYLeaksInspector"
   s.version          = "0.1.0"
-  s.summary          = "A short description of LYLeaksInspector."
+  s.summary          = "LYLeaksInspector is a read-time tool to detect view-leaks in your app."
 
   s.description      = <<-DESC
-                      LYLeaksInspector Podspec.
+                      LYLeaksInspector is a read-time tool to detect view-leaks in your app efficiently.
                        DESC
   s.homepage         = "https://github.com/linyu92/LYLeaksInspector"
   s.license          = 'MIT'
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-    # s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'LYLeaksDebug=1' }
+  # s.xcconfig = { "GCC_PREPROCESSOR_DEFINITIONS" => 'LYLeaksDebug=1' }
 
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false
