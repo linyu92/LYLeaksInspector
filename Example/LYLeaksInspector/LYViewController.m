@@ -7,8 +7,9 @@
 //
 
 #import "LYViewController.h"
-
+#import "LYTestLeaksController.h"
 @interface LYViewController ()
+- (IBAction)onButtonClick:(id)sender;
 
 @end
 
@@ -26,4 +27,8 @@
     // Dispose of any resources that can be recreated.
 }
 
+- (IBAction)onButtonClick:(id)sender {
+    LYTestLeaksController *vc = [[LYTestLeaksController alloc] init];
+    [self.navigationController pushViewController:vc animated:YES];
+}
 @end
