@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/UI/LYLDSnapshotViewController.h
+../../../../../LYLeaksInspector/UI/LYLDSnapshotViewController.h

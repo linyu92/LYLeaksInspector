@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/UI/LYLDViewHierarchyController.h
+../../../../../LYLeaksInspector/UI/LYLDViewHierarchyController.h

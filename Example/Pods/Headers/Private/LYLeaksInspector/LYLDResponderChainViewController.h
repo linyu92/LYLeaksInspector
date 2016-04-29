@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/UI/LYLDResponderChainViewController.h
+../../../../../LYLeaksInspector/UI/LYLDResponderChainViewController.h

@@ -14,7 +14,7 @@
             buildForArchiving = "YES">
             <BuildableReference
                BuildableIdentifier = 'primary'
-               BlueprintIdentifier = '8FBACE1CD3C3C2F794F64ECE'
+               BlueprintIdentifier = '0D833991A7BE32A6E40F47DD'
                BlueprintName = 'LYLeaksInspector'
                ReferencedContainer = 'container:Pods.xcodeproj'
                BuildableName = 'LYLeaksInspector.framework'>

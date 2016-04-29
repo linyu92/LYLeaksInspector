@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/Categories/UIViewController+LeaksInspector.h
+../../../../../LYLeaksInspector/Categories/UIViewController+LeaksInspector.h

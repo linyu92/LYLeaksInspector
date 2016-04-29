@@ -1,5 +1,9 @@
 use_frameworks!
 
+platform :ios, '7.0'
+
+#pod 'LYLeaksInspector', '1.0.0'
+
 target 'LYLeaksInspector_Example', :exclusive => true do
     pod 'LYLeaksInspector', :path => '../'
 end

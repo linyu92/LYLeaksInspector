@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/UI/LYLDHeapStackTableViewController.h
+../../../../../LYLeaksInspector/UI/LYLDHeapStackTableViewController.h

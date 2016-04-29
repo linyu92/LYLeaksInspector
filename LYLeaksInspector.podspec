@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LYLeaksInspector"
-  s.version          = "0.1.0"
+  s.version          = "1.0.0"
   s.summary          = "LYLeaksInspector is a read-time tool to detect view-leaks in your app."
 
   s.description      = <<-DESC
@@ -17,13 +17,13 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/linyu92/LYLeaksInspector"
   s.license          = 'MIT'
   s.author           = { "levi92" => "330269630@qq.com" }
-  s.source           = { :git => "https://github.com/linyu92/LYLeaksInspector.git", :tag => s.version.to_s }
+  s.source           = { :git => "https://github.com/linyu92/LYLeaksInspector.git", :tag => "1.0.0" }
 
   s.ios.deployment_target = '7.0'
 
-  non_arc_files = 'LYLeaksInspector/Classes/MRC/*.{h,m}'
+  non_arc_files = 'LYLeaksInspector/MRC/*.{h,m}'
 
-  s.source_files = 'LYLeaksInspector/Classes/{Categories,DebugUtils,MRC,UI}/*.{h,m}'
+  s.source_files = 'LYLeaksInspector/{Categories,DebugUtils,MRC,UI}/*.{h,m}'
 
   s.ios.exclude_files = non_arc_files
 

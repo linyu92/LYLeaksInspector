@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/Classes/Categories/NSObject+LeaksInspector.h
+../../../../../LYLeaksInspector/Categories/NSObject+LeaksInspector.h

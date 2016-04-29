@@ -7,11 +7,6 @@
 #import "UIView+Recursive.h"
 #import "UIViewController+LeaksInspector.h"
 #import "LYLeaksInspector.h"
-#import "LYHeapObjectEnumerator.h"
-#import "LYLeaksDefined.h"
-#import "LYNotificationMapper.h"
-#import "NSObject+MRCDeallocInspect.h"
-#import "NSObject+MRCInstanceValue.h"
 #import "LYLDHeapDetailTableViewController.h"
 #import "LYLDHeapStackTableViewController.h"
 #import "LYLDPropertiesViewController.h"
@@ -26,6 +21,11 @@
 #import "LYLeaksDebugWindow.h"
 #import "LYTestLeaksController.h"
 #import "LYTestLeaksView.h"
+#import "LYHeapObjectEnumerator.h"
+#import "LYLeaksDefined.h"
+#import "LYNotificationMapper.h"
+#import "NSObject+MRCDeallocInspect.h"
+#import "NSObject+MRCInstanceValue.h"
 
 FOUNDATION_EXPORT double LYLeaksInspectorVersionNumber;
 FOUNDATION_EXPORT const unsigned char LYLeaksInspectorVersionString[];

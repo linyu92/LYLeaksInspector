@@ -1,8 +1,8 @@
 {
   "name": "LYLeaksInspector",
-  "version": "0.1.0",
-  "summary": "A short description of LYLeaksInspector.",
-  "description": "LYLeaksInspector Podspec.",
+  "version": "1.0.0",
+  "summary": "LYLeaksInspector is a read-time tool to detect view-leaks in your app.",
+  "description": "LYLeaksInspector is a read-time tool to detect view-leaks in your app efficiently.",
   "homepage": "https://github.com/linyu92/LYLeaksInspector",
   "license": "MIT",
   "authors": {
@@ -10,21 +10,21 @@
   },
   "source": {
     "git": "https://github.com/linyu92/LYLeaksInspector.git",
-    "tag": "0.1.0"
+    "tag": "1.0.0"
   },
   "platforms": {
     "ios": "7.0"
   },
-  "source_files": "LYLeaksInspector/Classes/{Categories,DebugUtils,MRC,UI}/*.{h,m}",
+  "source_files": "LYLeaksInspector/{Categories,DebugUtils,MRC,UI}/*.{h,m}",
   "ios": {
-    "exclude_files": "LYLeaksInspector/Classes/MRC/*.m"
+    "exclude_files": "LYLeaksInspector/MRC/*.{h,m}"
   },
   "requires_arc": true,
   "subspecs": [
     {
       "name": "no-arc",
       "requires_arc": false,
-      "source_files": "LYLeaksInspector/Classes/MRC/*.m"
+      "source_files": "LYLeaksInspector/MRC/*.{h,m}"
     }
   ]
 }
