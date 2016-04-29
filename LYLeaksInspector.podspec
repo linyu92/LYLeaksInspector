@@ -21,9 +21,9 @@ Pod::Spec.new do |s|
 
   s.ios.deployment_target = '7.0'
 
-  non_arc_files = 'LYLeaksInspector/MRC/*.{h,m}'
+  non_arc_files = 'LYLeaksInspector/Classes/MRC/*.{h,m}'
 
-  s.source_files = 'LYLeaksInspector/{Categories,DebugUtils,MRC,UI}/*.{h,m}'
+  s.source_files = 'LYLeaksInspector/Classes/{Categories,DebugUtils,MRC,UI}/*.{h,m}'
 
   s.ios.exclude_files = non_arc_files
 
