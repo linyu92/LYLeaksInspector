@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/MRC/NSObject+MRCDeallocInspect.h
+../../../../../LYLeaksInspector/Classes/MRC/NSObject+MRCDeallocInspect.h

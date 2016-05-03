@@ -51,7 +51,10 @@ static LYLeaksInspector *g_twDebug = nil;
 
 - (void)onPresentButtonClick:(UIButton *)sender
 {
-    NSArray *livings = [[LYHeapObjectEnumerator livingsVCHeapStack] allObjects];
+    NSArray *livings = nil;
+#if LYListViewControllers
+    livings = [[LYHeapObjectEnumerator livingsVCHeapStack] allObjects];
+#endif
     NSArray *leaksObj = [[LYHeapObjectEnumerator leakObjAddressPairs] allObjects];
     NSArray *leaksNotify = [[LYNotificationMapper shared] allLeakNotifications];;
     LYLDHeapStackTableViewController *controller = [self heapStackControllerWithLivingVC:livings leaksObj:leaksObj leaksNotify:leaksNotify];
@@ -60,7 +63,12 @@ static LYLeaksInspector *g_twDebug = nil;
 
 - (LYLDHeapStackTableViewController *)heapStackControllerWithLivingVC:(NSArray *)livings leaksObj:(NSArray *)leaksobj leaksNotify:(NSArray *)leaksnotify
 {
-    NSArray *dataSource = @[leaksobj,leaksnotify,livings];
+    NSArray *dataSource = nil;
+    if (livings) {
+        dataSource = @[leaksobj,leaksnotify,livings];
+    }else{
+        dataSource = @[leaksobj,leaksnotify];
+    }
     LYLDHeapStackTableViewController *tv = [[LYLDHeapStackTableViewController alloc] initWithDataSource:dataSource];
     UINavigationController *navController = [[UINavigationController alloc] initWithRootViewController:tv];
     [_rootViewController presentViewController:navController animated:YES completion:nil];

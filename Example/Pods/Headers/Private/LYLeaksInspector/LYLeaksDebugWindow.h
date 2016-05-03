@@ -1,1 +1,1 @@
-../../../../../LYLeaksInspector/UI/LYLeaksDebugWindow.h
+../../../../../LYLeaksInspector/Classes/UI/LYLeaksDebugWindow.h
