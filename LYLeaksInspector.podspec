@@ -8,7 +8,7 @@
 
 Pod::Spec.new do |s|
   s.name             = "LYLeaksInspector"
-  s.version          = “1.0.1”
+  s.version          = "1.0.2"
   s.summary          = "LYLeaksInspector is a read-time tool to detect view-leaks in your app."
 
   s.description      = <<-DESC
@@ -17,7 +17,7 @@ Pod::Spec.new do |s|
   s.homepage         = "https://github.com/linyu92/LYLeaksInspector"
   s.license          = 'MIT'
   s.author           = { "levi92" => "330269630@qq.com" }
-  s.source           = { :git => "https://github.com/linyu92/LYLeaksInspector.git", :tag => “1.0.1” }
+  s.source           = { :git => "https://github.com/linyu92/LYLeaksInspector.git", :tag => "1.0.2" }
 
   s.ios.deployment_target = '7.0'
 
@@ -29,7 +29,7 @@ Pod::Spec.new do |s|
 
   s.requires_arc = true
 
-  s.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => '$(inherited) LYListViewControllers=0' }
+  s.xcconfig = { 'GCC_PREPROCESSOR_DEFINITIONS' => 'LYListViewControllers=0' }
 
   s.subspec 'no-arc' do |sna|
     sna.requires_arc = false

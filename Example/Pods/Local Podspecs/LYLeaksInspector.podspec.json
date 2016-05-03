@@ -1,6 +1,6 @@
 {
   "name": "LYLeaksInspector",
-  "version": "1.0.0",
+  "version": "1.0.2",
   "summary": "LYLeaksInspector is a read-time tool to detect view-leaks in your app.",
   "description": "LYLeaksInspector is a read-time tool to detect view-leaks in your app efficiently.",
   "homepage": "https://github.com/linyu92/LYLeaksInspector",
@@ -10,7 +10,7 @@
   },
   "source": {
     "git": "https://github.com/linyu92/LYLeaksInspector.git",
-    "tag": "1.0.0"
+    "tag": "1.0.2"
   },
   "platforms": {
     "ios": "7.0"

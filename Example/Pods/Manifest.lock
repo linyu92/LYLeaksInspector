@@ -1,7 +1,7 @@
 PODS:
-  - LYLeaksInspector (1.0.0):
-    - LYLeaksInspector/no-arc (= 1.0.0)
-  - LYLeaksInspector/no-arc (1.0.0)
+  - LYLeaksInspector (1.0.2):
+    - LYLeaksInspector/no-arc (= 1.0.2)
+  - LYLeaksInspector/no-arc (1.0.2)
 
 DEPENDENCIES:
   - LYLeaksInspector (from `../`)
@@ -11,6 +11,6 @@ EXTERNAL SOURCES:
     :path: ../
 
 SPEC CHECKSUMS:
-  LYLeaksInspector: bc442cf73c096bd6d9e0f5208f311985247a93b8
+  LYLeaksInspector: 2283e8f5b7ae60bf69e9b382c110a55e290a12ab
 
 COCOAPODS: 0.39.0

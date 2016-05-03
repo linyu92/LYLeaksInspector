@@ -1,2573 +1,782 @@
-<?xml version="1.0" encoding="UTF-8"?>
-<!DOCTYPE plist PUBLIC "-//Apple//DTD PLIST 1.0//EN" "http://www.apple.com/DTDs/PropertyList-1.0.dtd">
-<plist version="1.0">
-<dict>
-	<key>archiveVersion</key>
-	<string>1</string>
-	<key>classes</key>
-	<dict/>
-	<key>objectVersion</key>
-	<string>46</string>
-	<key>objects</key>
-	<dict>
-		<key>02473D424E91D46FB0E14ECBF6BA1AA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLeaksInspector-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>038A090C5BC9165486104200854738B6</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDViewHierarchyController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>045952B80B2E350B817817B0987A4101</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDHeapDetailTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>052A17875CB827423D627183396CEB60</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>YES</string>
-				<key>ENABLE_NS_ASSERTIONS</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>RELEASE=1</string>
-				</array>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-				<key>VALIDATE_PRODUCT</key>
-				<string>YES</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>0576E6DE539AE29EA00D8C28C15BA71F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5EF2B356CD4E71BCE25A7A71B3B8D7BE</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>05F74499F0BABA23503A6883B90507C8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSObject+MRCDeallocInspect.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0BC9F0C81A8FF49DB722F6693309663C</key>
-		<dict>
-			<key>fileRef</key>
-			<string>98B54D4F304626849C2360F70FF84D1A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0BFD7287EDDC26951C57439E029603BF</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>6ED82C83000A96D832BD77555B010CBA</string>
-			<key>buildPhases</key>
-			<array>
-				<string>B370D312A6587B12D967B99870858D74</string>
-				<string>D10910BC300EDD543E099090E77BF3B1</string>
-				<string>139534B723A41BA67EBC57B9B3246649</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array>
-				<string>9F2E254C282D23FFEF68A07F5F0559D6</string>
-			</array>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>Pods-LYLeaksInspector_Example</string>
-			<key>productName</key>
-			<string>Pods-LYLeaksInspector_Example</string>
-			<key>productReference</key>
-			<string>FA7AFE949D68EC2E19FDF1D6EC4A3060</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>0C31AA61CBFC9BC1D8C348431A8E1CE0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2D5AC01281CEA92D239C529927D6324C</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>0D7E874C3946646DF9D1CB78B4441D7E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYNotificationMapper.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>0F8C1BED69DD065E84B252CC734F7675</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>PRODUCT_NAME</key>
-				<string>LYLeaksInspector</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>12270CCFA157CBFAA58052C8F1879A6D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>038A090C5BC9165486104200854738B6</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>126D94F8CEAE75BC38E6B2C5AD35E2C7</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDViewLeakStackController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>12E8FED76DDFEA5C9CC7CBD50B0E1C40</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BFD8F7D074BD70D252E0281925A18E98</string>
-				<string>FA7AFE949D68EC2E19FDF1D6EC4A3060</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Products</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>13798A4A445349E03AADA1ADDE3BBEB8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>139534B723A41BA67EBC57B9B3246649</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>A7C44AE003B52ECE449979F3C3C6BD59</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>1430D8BCE1FEA2F57640C6ADCD9F767E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+LeaksInspector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>14B0F36C7B08E1BA269EA7F08DC0AD9F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>8F12599292969DDEB0DDDE80EC24074F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Targets Support Files</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>171C0E212A6B2C52A606F5F767F094CC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDStringListController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>17E97463C4BACE3B6F97244E417A7516</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDStringListController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1A76A8B15738A4BA172DE1D769F39469</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSNotificationCenter+ObserverInspect.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B2998DAEFFAB31BDBE6DEED456CEEEC</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDResponderChainViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>1B9C3D3637BF20AE766D65AB60AD907D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>904D2F93B82133F6695362F76DD41750</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>2316A95395FBED7CBABAD73F608BF8EA</key>
-		<dict>
-			<key>buildConfigurationList</key>
-			<string>2488115AFD9B97C3288FE629DAC7135B</string>
-			<key>buildPhases</key>
-			<array>
-				<string>25B4FB17B3B47086399EDBE89D8BAE6A</string>
-				<string>D9A65E136AB6AB98F749479BA73F6E88</string>
-				<string>88A0D3860E1DDE6F862A454AF7402C38</string>
-			</array>
-			<key>buildRules</key>
-			<array/>
-			<key>dependencies</key>
-			<array/>
-			<key>isa</key>
-			<string>PBXNativeTarget</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>productName</key>
-			<string>LYLeaksInspector</string>
-			<key>productReference</key>
-			<string>BFD8F7D074BD70D252E0281925A18E98</string>
-			<key>productType</key>
-			<string>com.apple.product-type.framework</string>
-		</dict>
-		<key>2359A53D4AB00F0C09660FB35EF8E05D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDResponderChainViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2488115AFD9B97C3288FE629DAC7135B</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>0F8C1BED69DD065E84B252CC734F7675</string>
-				<string>621EA9F02C6C390846F4EA5D8BB4D0EF</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>25B31D004057B3FE1F6E25DC0F0B8D91</key>
-		<dict>
-			<key>fileRef</key>
-			<string>045952B80B2E350B817817B0987A4101</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>25B4FB17B3B47086399EDBE89D8BAE6A</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>3F766A1507A4211B79B58A5102ED3FA6</string>
-				<string>25B31D004057B3FE1F6E25DC0F0B8D91</string>
-				<string>F92A2BD95DF45F53678474707906B69F</string>
-				<string>CDECDBA75606125D75F857B8AAF57931</string>
-				<string>325D0906C04C8078F98C4714188F0253</string>
-				<string>6169528B8956B76E6BD45BD3C4E09282</string>
-				<string>5B65133D8962AC8FB32A47412A753A92</string>
-				<string>1B9C3D3637BF20AE766D65AB60AD907D</string>
-				<string>FA3C6524250651D15A72F02000A0C22D</string>
-				<string>A500F0D6AAB1F1214FBD423BB7F2276A</string>
-				<string>D5E81FC5E7C1166BB0D1FC7FF9E32D19</string>
-				<string>BCC3FE23604C1846EF5B1A020DDFBD06</string>
-				<string>C4906C63064E183D9F61B5A0EE9C71EE</string>
-				<string>F4F19C154BC2F205DC9DC2EA53FE2DC0</string>
-				<string>CF413275655A21F858C16BDB024CA1DD</string>
-				<string>F8C469584A527B4A7FBCDFEB601510B4</string>
-				<string>96D41E55EC6B95913E231727F40E5A7E</string>
-				<string>4A8F66335A4462B2C8A007EDC9732D6A</string>
-				<string>E2E5B4BFD0F5DB88530947F54E8947A8</string>
-				<string>2947817F9592A1EDDD087C6620EE5104</string>
-				<string>E4857BB5F692A5A6534DEEA8CE938176</string>
-				<string>989CDB10D31D1E01CC93E884C8E9E440</string>
-				<string>5A759EAB91FDD988E8F5956E7567ED50</string>
-				<string>DBC562873AA39DDC57544D1DE7FD35FA</string>
-				<string>A8598AA29F273D202595EBDC92E6A60A</string>
-				<string>FEB25A608F1A9AD0A6308F338E0EA7BC</string>
-				<string>9037A66747F055DE9423B7473DE84056</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>2947817F9592A1EDDD087C6620EE5104</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1A76A8B15738A4BA172DE1D769F39469</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>29EC8D897639F8B69A1A099938523599</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-acknowledgements.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2A10B1F3DCD6958CF48A5E9B805F18D4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDWindowController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2CAB4793F0395A7340E83F91BFEE1D84</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C5124F672B27794FB4AD40FB912B3FD3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>2D5AC01281CEA92D239C529927D6324C</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UINavigationController+LeaksInspector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>2D8E8EC45A3A1A1D94AE762CB5028504</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>B37F0F91F85060E28F1DAAB522DC7EC1</string>
-				<string>052A17875CB827423D627183396CEB60</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>314743A4DEDB31903449A4709CAD82EA</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.debug.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>325D0906C04C8078F98C4714188F0253</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2359A53D4AB00F0C09660FB35EF8E05D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>3858B6DEEE515DF0BA149CFF24657CE2</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIView+Recursive.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3A5529424C1EA133FC74121D67622CDE</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>F259EE8D31957B907391D0F833B35E4E</string>
-				<string>9999CA8AD040B5486AE7852CA76CE127</string>
-				<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
-				<string>5B43E3472B51727C4FC96188459C6955</string>
-				<string>FD69BC9ED1946E564E2DBF95B61493F5</string>
-				<string>02473D424E91D46FB0E14ECBF6BA1AA3</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Support Files</string>
-			<key>path</key>
-			<string>Example/Pods/Target Support Files/LYLeaksInspector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3B049A507980DD0BF1D2D6CD4D104673</key>
-		<dict>
-			<key>fileRef</key>
-			<string>70BAFECAB94F0234424AF9E6344E6300</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>3C66082312968AC5323ED64DE47E98E5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIViewController+LeaksInspector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3C79E2E47F73B7538691BB80E8140B8A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLeaksInspector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3DB07CF39EB353ED9C5EF40B8B49A7C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>LYLeaksInspector.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3E4E89230EF59BC255123B67864ACF77</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>wrapper.framework</string>
-			<key>name</key>
-			<string>Foundation.framework</string>
-			<key>path</key>
-			<string>Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework</string>
-			<key>sourceTree</key>
-			<string>DEVELOPER_DIR</string>
-		</dict>
-		<key>3EE4A8B31265ACCECA2D815CEAEF5D27</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>D815A85D424C282F36BB5D91BB8CB121</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>path</key>
-			<string>LYLeaksInspector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>3F766A1507A4211B79B58A5102ED3FA6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FC71EDB44A93AC3EBC7D29649FE6359B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>44C93525A27028A8DF5E57B8CAB0C177</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>4A8F66335A4462B2C8A007EDC9732D6A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7D75B072C62B71CEB15330899248EFED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>525BD43BABD1C0823D15334B3EDE0140</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>FE053B1066929CFE236CB0062B445BDF</string>
-				<string>045952B80B2E350B817817B0987A4101</string>
-				<string>76A10148ABBF1D55FF83D6CD6ACD9658</string>
-				<string>E8190387131E672F676C3ADBEFE930FD</string>
-				<string>5EF2B356CD4E71BCE25A7A71B3B8D7BE</string>
-				<string>8E08C52F7C472727C624EA1C94C311B4</string>
-				<string>1B2998DAEFFAB31BDBE6DEED456CEEEC</string>
-				<string>2359A53D4AB00F0C09660FB35EF8E05D</string>
-				<string>67E7B2EBCB4E693DB01EC465F5C8721D</string>
-				<string>8674518859D62896BEAF8A6DD97EF0A0</string>
-				<string>171C0E212A6B2C52A606F5F767F094CC</string>
-				<string>17E97463C4BACE3B6F97244E417A7516</string>
-				<string>70BAFECAB94F0234424AF9E6344E6300</string>
-				<string>904D2F93B82133F6695362F76DD41750</string>
-				<string>553CED1351A2576DC36B3E3DD495A372</string>
-				<string>44C93525A27028A8DF5E57B8CAB0C177</string>
-				<string>038A090C5BC9165486104200854738B6</string>
-				<string>B7A2A200E39A3D3036708025D66FE4E8</string>
-				<string>126D94F8CEAE75BC38E6B2C5AD35E2C7</string>
-				<string>A54040FE4A1D53330AB41BD9D7A5868F</string>
-				<string>2A10B1F3DCD6958CF48A5E9B805F18D4</string>
-				<string>AFFC3BAA3AEE9533F257C6056B808115</string>
-				<string>67B92CAEE9F3AAA15CF03E2FF28B7828</string>
-				<string>A34527290171C4EA35A321D5154A46ED</string>
-				<string>E8E8EED322146AB4E4B912D7A2FC2FF4</string>
-				<string>7D75B072C62B71CEB15330899248EFED</string>
-				<string>98B54D4F304626849C2360F70FF84D1A</string>
-				<string>991F8AE02F470CE8FC1A31ACDCCBF440</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>UI</string>
-			<key>path</key>
-			<string>UI</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>553CED1351A2576DC36B3E3DD495A372</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>55982FEF97E18C9FEC7B3FED523566E8</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>ABC58B8C6E69A3FD9D7BAA71986F2327</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Example/Pods-LYLeaksInspector_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_LYLeaksInspector_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>57F0DE29C3E609E6B227F7BBB93A9879</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9F1A6B95ADB1C0BA019EDEF0DF8509D9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>5A759EAB91FDD988E8F5956E7567ED50</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6781DBF92930899022981908CECCD0C4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>5B43E3472B51727C4FC96188459C6955</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLeaksInspector-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5B65133D8962AC8FB32A47412A753A92</key>
-		<dict>
-			<key>fileRef</key>
-			<string>17E97463C4BACE3B6F97244E417A7516</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>5C6AB276E58DAF283D459B3438E00076</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+LeaksInspector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5E3D21EA76BFBDDE505033A321F6A2CB</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>UIViewController+LeaksInspector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>5EF2B356CD4E71BCE25A7A71B3B8D7BE</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDPropertiesViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6169528B8956B76E6BD45BD3C4E09282</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8674518859D62896BEAF8A6DD97EF0A0</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>621EA9F02C6C390846F4EA5D8BB4D0EF</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>3DB07CF39EB353ED9C5EF40B8B49A7C4</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>GCC_PREFIX_HEADER</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>NO</string>
-				<key>PRODUCT_NAME</key>
-				<string>LYLeaksInspector</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Release</string>
-		</dict>
-		<key>657D6541B33180839E9D25D165EBFD5A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6781DBF92930899022981908CECCD0C4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSObject+MRCInstanceValue.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>678BAE6990A8161921F5808C03E00AE4</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3EE4A8B31265ACCECA2D815CEAEF5D27</string>
-				<string>6A8F8AC9DE0B72CD11EA8E1D05F97B65</string>
-				<string>3A5529424C1EA133FC74121D67622CDE</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>path</key>
-			<string>../..</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67B92CAEE9F3AAA15CF03E2FF28B7828</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLeaksDebugWindow.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>67E7B2EBCB4E693DB01EC465F5C8721D</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDSnapshotViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A13AB5001F946E9C577546C059599B9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLeaksDefined.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6A8F8AC9DE0B72CD11EA8E1D05F97B65</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>7CA106A0C5AD6D14608D75AEBCE0938E</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>no-arc</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6BE89F080D838B9AFA86EB95A058DBEF</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>DD0E98EC485268660DB9D51E44E72A63</string>
-				<string>1A76A8B15738A4BA172DE1D769F39469</string>
-				<string>C5124F672B27794FB4AD40FB912B3FD3</string>
-				<string>D034D9C1022EBADC90D128C028B15F37</string>
-				<string>2D5AC01281CEA92D239C529927D6324C</string>
-				<string>E10C1A352F4286F056399AAD8802E78B</string>
-				<string>1430D8BCE1FEA2F57640C6ADCD9F767E</string>
-				<string>5C6AB276E58DAF283D459B3438E00076</string>
-				<string>3858B6DEEE515DF0BA149CFF24657CE2</string>
-				<string>9FD81303A9E56048F6AB63200402FCD8</string>
-				<string>5E3D21EA76BFBDDE505033A321F6A2CB</string>
-				<string>3C66082312968AC5323ED64DE47E98E5</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Categories</string>
-			<key>path</key>
-			<string>Categories</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6EBE5582F81F8DB06D4B85543DCDBD8F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYNotificationMapper.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>6ED82C83000A96D832BD77555B010CBA</key>
-		<dict>
-			<key>buildConfigurations</key>
-			<array>
-				<string>996A5DE839EB6EDA97C3E0BC539328BD</string>
-				<string>55982FEF97E18C9FEC7B3FED523566E8</string>
-			</array>
-			<key>defaultConfigurationIsVisible</key>
-			<string>0</string>
-			<key>defaultConfigurationName</key>
-			<string>Release</string>
-			<key>isa</key>
-			<string>XCConfigurationList</string>
-		</dict>
-		<key>70BAFECAB94F0234424AF9E6344E6300</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDTableViewCell.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>71100A54F2D13D3614C52A5343995D17</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3C79E2E47F73B7538691BB80E8140B8A</string>
-				<string>7FF2643DA5E31661F93561115DDF0DCF</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>DebugUtils</string>
-			<key>path</key>
-			<string>DebugUtils</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>72CEECBE6C004169C5C4FE0D15A41891</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E8E8EED322146AB4E4B912D7A2FC2FF4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>76A10148ABBF1D55FF83D6CD6ACD9658</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDHeapStackTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>78443181B0ECDB1FA31893F408FBFAD3</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3858B6DEEE515DF0BA149CFF24657CE2</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>7CA106A0C5AD6D14608D75AEBCE0938E</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>A5513D6273AFD2ADF4C4F9383F7F1735</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>path</key>
-			<string>LYLeaksInspector</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7D75B072C62B71CEB15330899248EFED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYTestLeaksController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7DB346D0F39D3F0E887471402A8071AB</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BA6428E9F66FD5A23C0A2E06ED26CD2F</string>
-				<string>8E13FFA9E43E5F14CAF2B432116A3223</string>
-				<string>BC3CA7F9E30CC8F7E2DD044DD34432FC</string>
-				<string>12E8FED76DDFEA5C9CC7CBD50B0E1C40</string>
-				<string>14B0F36C7B08E1BA269EA7F08DC0AD9F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>7FF2643DA5E31661F93561115DDF0DCF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLeaksInspector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>85DF0505CE4EC7D7AD628FD1E99AC70D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>CCD601ABD3DC7EFFA50FD05DAA206A3E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>8674518859D62896BEAF8A6DD97EF0A0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDSnapshotViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>88A0D3860E1DDE6F862A454AF7402C38</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>8C45D78B29FDE13DDAEADD0C7AF86E57</string>
-				<string>BD2FFC3AF6004DF376AE984260C11CE2</string>
-				<string>915EFAD17ECC24816F824D5B7EF38500</string>
-				<string>0576E6DE539AE29EA00D8C28C15BA71F</string>
-				<string>CE55B20FDF8DD38CB3CFDC0610E79E33</string>
-				<string>952D48E9561E2367E0B33682492D51E6</string>
-				<string>C401A491B6732FCAF166E4470725EE0B</string>
-				<string>3B049A507980DD0BF1D2D6CD4D104673</string>
-				<string>B0B1D0FD46C53A4F672F68C5747D9E29</string>
-				<string>12270CCFA157CBFAA58052C8F1879A6D</string>
-				<string>D830DC7543BAAC90F6F352504E24013F</string>
-				<string>A0B0E8B73325BD0D9165ACBC0AE3450F</string>
-				<string>E0BA3F78EE664F1D71A3D4AB0366639A</string>
-				<string>FF91BA4A3964C47AB6FBF19FB3FD2577</string>
-				<string>90C3F5BD4E6C4439AF5F9A8FA08D1AB4</string>
-				<string>F112F9B7C260C5A4C8F71EB04E4CDE97</string>
-				<string>FDAF013D4B6597D6725556FA579A6001</string>
-				<string>72CEECBE6C004169C5C4FE0D15A41891</string>
-				<string>0BC9F0C81A8FF49DB722F6693309663C</string>
-				<string>92B4621D904A9004E50B22C5406E5698</string>
-				<string>2CAB4793F0395A7340E83F91BFEE1D84</string>
-				<string>57F0DE29C3E609E6B227F7BBB93A9879</string>
-				<string>88D6E17839ECBE7D5607A9A797174884</string>
-				<string>0C31AA61CBFC9BC1D8C348431A8E1CE0</string>
-				<string>AB7491715D66F40A2E248ADA5FA0E0E8</string>
-				<string>78443181B0ECDB1FA31893F408FBFAD3</string>
-				<string>F197669F1FF7CDBB54D3948FC7547C4F</string>
-			</array>
-			<key>isa</key>
-			<string>PBXHeadersBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>88D6E17839ECBE7D5607A9A797174884</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9DCD8700C43F4B6501E673B9F8CA2791</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8C45D78B29FDE13DDAEADD0C7AF86E57</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AEF0A365FCF0AC58389AAC3183CE3241</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>8E08C52F7C472727C624EA1C94C311B4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDPropertiesViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8E13FFA9E43E5F14CAF2B432116A3223</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>678BAE6990A8161921F5808C03E00AE4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Development Pods</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>8F12599292969DDEB0DDDE80EC24074F</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>657D6541B33180839E9D25D165EBFD5A</string>
-				<string>C6FF2FB67F3DBC4AB4EB1BF505961520</string>
-				<string>B34C324DC852EB515D070E8F6722FE92</string>
-				<string>29EC8D897639F8B69A1A099938523599</string>
-				<string>CCD601ABD3DC7EFFA50FD05DAA206A3E</string>
-				<string>D1ED22E01B532C5D47D1DF2DA2FECAB0</string>
-				<string>ED0995CF9FA68AB5B51B56C6596C2FE5</string>
-				<string>C693C60FB3A1927AC1840EFD8A30C66F</string>
-				<string>314743A4DEDB31903449A4709CAD82EA</string>
-				<string>ABC58B8C6E69A3FD9D7BAA71986F2327</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Pods-LYLeaksInspector_Example</string>
-			<key>path</key>
-			<string>Target Support Files/Pods-LYLeaksInspector_Example</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9037A66747F055DE9423B7473DE84056</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C66082312968AC5323ED64DE47E98E5</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>904D2F93B82133F6695362F76DD41750</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDTableViewCell.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>90B88A5D5B2369A6E2ACF391623DB51F</key>
-		<dict>
-			<key>containerPortal</key>
-			<string>D41D8CD98F00B204E9800998ECF8427E</string>
-			<key>isa</key>
-			<string>PBXContainerItemProxy</string>
-			<key>proxyType</key>
-			<string>1</string>
-			<key>remoteGlobalIDString</key>
-			<string>2316A95395FBED7CBABAD73F608BF8EA</string>
-			<key>remoteInfo</key>
-			<string>LYLeaksInspector</string>
-		</dict>
-		<key>90C3F5BD4E6C4439AF5F9A8FA08D1AB4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>02473D424E91D46FB0E14ECBF6BA1AA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>915EFAD17ECC24816F824D5B7EF38500</key>
-		<dict>
-			<key>fileRef</key>
-			<string>76A10148ABBF1D55FF83D6CD6ACD9658</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>92B4621D904A9004E50B22C5406E5698</key>
-		<dict>
-			<key>fileRef</key>
-			<string>DD0E98EC485268660DB9D51E44E72A63</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>952D48E9561E2367E0B33682492D51E6</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67E7B2EBCB4E693DB01EC465F5C8721D</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>96D41E55EC6B95913E231727F40E5A7E</key>
-		<dict>
-			<key>fileRef</key>
-			<string>0D7E874C3946646DF9D1CB78B4441D7E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>97348C6B3F964303B660BB455EA22A97</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>AEF0A365FCF0AC58389AAC3183CE3241</string>
-				<string>FC71EDB44A93AC3EBC7D29649FE6359B</string>
-				<string>6A13AB5001F946E9C577546C059599B9</string>
-				<string>FA02356C9035E573BBE2B6B4CEFB6DA3</string>
-				<string>6EBE5582F81F8DB06D4B85543DCDBD8F</string>
-				<string>0D7E874C3946646DF9D1CB78B4441D7E</string>
-				<string>9F1A6B95ADB1C0BA019EDEF0DF8509D9</string>
-				<string>05F74499F0BABA23503A6883B90507C8</string>
-				<string>9DCD8700C43F4B6501E673B9F8CA2791</string>
-				<string>6781DBF92930899022981908CECCD0C4</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>MRC</string>
-			<key>path</key>
-			<string>MRC</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>989CDB10D31D1E01CC93E884C8E9E440</key>
-		<dict>
-			<key>fileRef</key>
-			<string>05F74499F0BABA23503A6883B90507C8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>98B54D4F304626849C2360F70FF84D1A</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYTestLeaksView.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>991F8AE02F470CE8FC1A31ACDCCBF440</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYTestLeaksView.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>996A5DE839EB6EDA97C3E0BC539328BD</key>
-		<dict>
-			<key>baseConfigurationReference</key>
-			<string>314743A4DEDB31903449A4709CAD82EA</string>
-			<key>buildSettings</key>
-			<dict>
-				<key>CODE_SIGN_IDENTITY[sdk=iphoneos*]</key>
-				<string>iPhone Developer</string>
-				<key>CURRENT_PROJECT_VERSION</key>
-				<string>1</string>
-				<key>DEFINES_MODULE</key>
-				<string>YES</string>
-				<key>DYLIB_COMPATIBILITY_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_CURRENT_VERSION</key>
-				<string>1</string>
-				<key>DYLIB_INSTALL_NAME_BASE</key>
-				<string>@rpath</string>
-				<key>ENABLE_STRICT_OBJC_MSGSEND</key>
-				<string>YES</string>
-				<key>INFOPLIST_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Example/Info.plist</string>
-				<key>INSTALL_PATH</key>
-				<string>$(LOCAL_LIBRARY_DIR)/Frameworks</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>LD_RUNPATH_SEARCH_PATHS</key>
-				<array>
-					<string>$(inherited)</string>
-					<string>@executable_path/Frameworks</string>
-					<string>@loader_path/Frameworks</string>
-				</array>
-				<key>MACH_O_TYPE</key>
-				<string>staticlib</string>
-				<key>MODULEMAP_FILE</key>
-				<string>Target Support Files/Pods-LYLeaksInspector_Example/Pods-LYLeaksInspector_Example.modulemap</string>
-				<key>MTL_ENABLE_DEBUG_INFO</key>
-				<string>YES</string>
-				<key>OTHER_LDFLAGS</key>
-				<string></string>
-				<key>OTHER_LIBTOOLFLAGS</key>
-				<string></string>
-				<key>PODS_ROOT</key>
-				<string>$(SRCROOT)</string>
-				<key>PRODUCT_NAME</key>
-				<string>Pods_LYLeaksInspector_Example</string>
-				<key>SDKROOT</key>
-				<string>iphoneos</string>
-				<key>SKIP_INSTALL</key>
-				<string>YES</string>
-				<key>TARGETED_DEVICE_FAMILY</key>
-				<string>1,2</string>
-				<key>VERSIONING_SYSTEM</key>
-				<string>apple-generic</string>
-				<key>VERSION_INFO_PREFIX</key>
-				<string></string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>9999CA8AD040B5486AE7852CA76CE127</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>LYLeaksInspector.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9DCD8700C43F4B6501E673B9F8CA2791</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSObject+MRCInstanceValue.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F1A6B95ADB1C0BA019EDEF0DF8509D9</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSObject+MRCDeallocInspect.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>9F2E254C282D23FFEF68A07F5F0559D6</key>
-		<dict>
-			<key>isa</key>
-			<string>PBXTargetDependency</string>
-			<key>name</key>
-			<string>LYLeaksInspector</string>
-			<key>target</key>
-			<string>2316A95395FBED7CBABAD73F608BF8EA</string>
-			<key>targetProxy</key>
-			<string>90B88A5D5B2369A6E2ACF391623DB51F</string>
-		</dict>
-		<key>9FD81303A9E56048F6AB63200402FCD8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UIView+Recursive.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A0B0E8B73325BD0D9165ACBC0AE3450F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>2A10B1F3DCD6958CF48A5E9B805F18D4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A34527290171C4EA35A321D5154A46ED</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLeaksDebugWindow.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A500F0D6AAB1F1214FBD423BB7F2276A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>B7A2A200E39A3D3036708025D66FE4E8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>A54040FE4A1D53330AB41BD9D7A5868F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDViewLeakStackController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A5513D6273AFD2ADF4C4F9383F7F1735</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>97348C6B3F964303B660BB455EA22A97</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>A7C44AE003B52ECE449979F3C3C6BD59</key>
-		<dict>
-			<key>fileRef</key>
-			<string>C693C60FB3A1927AC1840EFD8A30C66F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>A8598AA29F273D202595EBDC92E6A60A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5C6AB276E58DAF283D459B3438E00076</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AB7491715D66F40A2E248ADA5FA0E0E8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1430D8BCE1FEA2F57640C6ADCD9F767E</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>ABC58B8C6E69A3FD9D7BAA71986F2327</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.xcconfig</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.release.xcconfig</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AE20763545CD99EDF1A47FC4952A32AB</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3E4E89230EF59BC255123B67864ACF77</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>AEF0A365FCF0AC58389AAC3183CE3241</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYHeapObjectEnumerator.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>AFFC3BAA3AEE9533F257C6056B808115</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDWindowController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B0B1D0FD46C53A4F672F68C5747D9E29</key>
-		<dict>
-			<key>fileRef</key>
-			<string>553CED1351A2576DC36B3E3DD495A372</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>B34C324DC852EB515D070E8F6722FE92</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-acknowledgements.markdown</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>B370D312A6587B12D967B99870858D74</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>85DF0505CE4EC7D7AD628FD1E99AC70D</string>
-			</array>
-			<key>isa</key>
-			<string>PBXSourcesBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>B37F0F91F85060E28F1DAAB522DC7EC1</key>
-		<dict>
-			<key>buildSettings</key>
-			<dict>
-				<key>ALWAYS_SEARCH_USER_PATHS</key>
-				<string>NO</string>
-				<key>CLANG_CXX_LANGUAGE_STANDARD</key>
-				<string>gnu++0x</string>
-				<key>CLANG_CXX_LIBRARY</key>
-				<string>libc++</string>
-				<key>CLANG_ENABLE_MODULES</key>
-				<string>YES</string>
-				<key>CLANG_ENABLE_OBJC_ARC</key>
-				<string>YES</string>
-				<key>CLANG_WARN_BOOL_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_CONSTANT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_DIRECT_OBJC_ISA_USAGE</key>
-				<string>YES</string>
-				<key>CLANG_WARN_EMPTY_BODY</key>
-				<string>YES</string>
-				<key>CLANG_WARN_ENUM_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_INT_CONVERSION</key>
-				<string>YES</string>
-				<key>CLANG_WARN_OBJC_ROOT_CLASS</key>
-				<string>YES</string>
-				<key>CLANG_WARN_UNREACHABLE_CODE</key>
-				<string>YES</string>
-				<key>CLANG_WARN__DUPLICATE_METHOD_MATCH</key>
-				<string>YES</string>
-				<key>COPY_PHASE_STRIP</key>
-				<string>NO</string>
-				<key>GCC_C_LANGUAGE_STANDARD</key>
-				<string>gnu99</string>
-				<key>GCC_DYNAMIC_NO_PIC</key>
-				<string>NO</string>
-				<key>GCC_OPTIMIZATION_LEVEL</key>
-				<string>0</string>
-				<key>GCC_PREPROCESSOR_DEFINITIONS</key>
-				<array>
-					<string>DEBUG=1</string>
-					<string>$(inherited)</string>
-				</array>
-				<key>GCC_SYMBOLS_PRIVATE_EXTERN</key>
-				<string>NO</string>
-				<key>GCC_WARN_64_TO_32_BIT_CONVERSION</key>
-				<string>YES</string>
-				<key>GCC_WARN_ABOUT_RETURN_TYPE</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNDECLARED_SELECTOR</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNINITIALIZED_AUTOS</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_FUNCTION</key>
-				<string>YES</string>
-				<key>GCC_WARN_UNUSED_VARIABLE</key>
-				<string>YES</string>
-				<key>IPHONEOS_DEPLOYMENT_TARGET</key>
-				<string>7.0</string>
-				<key>ONLY_ACTIVE_ARCH</key>
-				<string>YES</string>
-				<key>STRIP_INSTALLED_PRODUCT</key>
-				<string>NO</string>
-				<key>SYMROOT</key>
-				<string>${SRCROOT}/../build</string>
-			</dict>
-			<key>isa</key>
-			<string>XCBuildConfiguration</string>
-			<key>name</key>
-			<string>Debug</string>
-		</dict>
-		<key>B7A2A200E39A3D3036708025D66FE4E8</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDViewHierarchyController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BA6428E9F66FD5A23C0A2E06ED26CD2F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text</string>
-			<key>name</key>
-			<string>Podfile</string>
-			<key>path</key>
-			<string>../Podfile</string>
-			<key>sourceTree</key>
-			<string>SOURCE_ROOT</string>
-			<key>xcLanguageSpecificationIdentifier</key>
-			<string>xcode.lang.ruby</string>
-		</dict>
-		<key>BC3CA7F9E30CC8F7E2DD044DD34432FC</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>BF6342C8B29F4CEEA088EFF7AB4DE362</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Frameworks</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BCC3FE23604C1846EF5B1A020DDFBD06</key>
-		<dict>
-			<key>fileRef</key>
-			<string>AFFC3BAA3AEE9533F257C6056B808115</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>BD2FFC3AF6004DF376AE984260C11CE2</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FE053B1066929CFE236CB0062B445BDF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>BF6342C8B29F4CEEA088EFF7AB4DE362</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>3E4E89230EF59BC255123B67864ACF77</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>iOS</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>BFD8F7D074BD70D252E0281925A18E98</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>LYLeaksInspector.framework</string>
-			<key>path</key>
-			<string>LYLeaksInspector.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>C401A491B6732FCAF166E4470725EE0B</key>
-		<dict>
-			<key>fileRef</key>
-			<string>171C0E212A6B2C52A606F5F767F094CC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>C4906C63064E183D9F61B5A0EE9C71EE</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A34527290171C4EA35A321D5154A46ED</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>C5124F672B27794FB4AD40FB912B3FD3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSObject+LeaksInspector.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C693C60FB3A1927AC1840EFD8A30C66F</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-umbrella.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>C6FF2FB67F3DBC4AB4EB1BF505961520</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example.modulemap</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CCD601ABD3DC7EFFA50FD05DAA206A3E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-dummy.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>CDECDBA75606125D75F857B8AAF57931</key>
-		<dict>
-			<key>fileRef</key>
-			<string>8E08C52F7C472727C624EA1C94C311B4</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>CE55B20FDF8DD38CB3CFDC0610E79E33</key>
-		<dict>
-			<key>fileRef</key>
-			<string>1B2998DAEFFAB31BDBE6DEED456CEEEC</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>CF413275655A21F858C16BDB024CA1DD</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5B43E3472B51727C4FC96188459C6955</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D034D9C1022EBADC90D128C028B15F37</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>NSObject+LeaksInspector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D10910BC300EDD543E099090E77BF3B1</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>AE20763545CD99EDF1A47FC4952A32AB</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>D1ED22E01B532C5D47D1DF2DA2FECAB0</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-frameworks.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D41D8CD98F00B204E9800998ECF8427E</key>
-		<dict>
-			<key>attributes</key>
-			<dict>
-				<key>LastSwiftUpdateCheck</key>
-				<string>0700</string>
-				<key>LastUpgradeCheck</key>
-				<string>0700</string>
-			</dict>
-			<key>buildConfigurationList</key>
-			<string>2D8E8EC45A3A1A1D94AE762CB5028504</string>
-			<key>compatibilityVersion</key>
-			<string>Xcode 3.2</string>
-			<key>developmentRegion</key>
-			<string>English</string>
-			<key>hasScannedForEncodings</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXProject</string>
-			<key>knownRegions</key>
-			<array>
-				<string>en</string>
-			</array>
-			<key>mainGroup</key>
-			<string>7DB346D0F39D3F0E887471402A8071AB</string>
-			<key>productRefGroup</key>
-			<string>12E8FED76DDFEA5C9CC7CBD50B0E1C40</string>
-			<key>projectDirPath</key>
-			<string></string>
-			<key>projectReferences</key>
-			<array/>
-			<key>projectRoot</key>
-			<string></string>
-			<key>targets</key>
-			<array>
-				<string>2316A95395FBED7CBABAD73F608BF8EA</string>
-				<string>0BFD7287EDDC26951C57439E029603BF</string>
-			</array>
-		</dict>
-		<key>D5E81FC5E7C1166BB0D1FC7FF9E32D19</key>
-		<dict>
-			<key>fileRef</key>
-			<string>A54040FE4A1D53330AB41BD9D7A5868F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>D815A85D424C282F36BB5D91BB8CB121</key>
-		<dict>
-			<key>children</key>
-			<array>
-				<string>6BE89F080D838B9AFA86EB95A058DBEF</string>
-				<string>71100A54F2D13D3614C52A5343995D17</string>
-				<string>525BD43BABD1C0823D15334B3EDE0140</string>
-			</array>
-			<key>isa</key>
-			<string>PBXGroup</string>
-			<key>name</key>
-			<string>Classes</string>
-			<key>path</key>
-			<string>Classes</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>D830DC7543BAAC90F6F352504E24013F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>126D94F8CEAE75BC38E6B2C5AD35E2C7</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>D9A65E136AB6AB98F749479BA73F6E88</key>
-		<dict>
-			<key>buildActionMask</key>
-			<string>2147483647</string>
-			<key>files</key>
-			<array>
-				<string>13798A4A445349E03AADA1ADDE3BBEB8</string>
-			</array>
-			<key>isa</key>
-			<string>PBXFrameworksBuildPhase</string>
-			<key>runOnlyForDeploymentPostprocessing</key>
-			<string>0</string>
-		</dict>
-		<key>DBC562873AA39DDC57544D1DE7FD35FA</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E10C1A352F4286F056399AAD8802E78B</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>DD0E98EC485268660DB9D51E44E72A63</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>NSNotificationCenter+ObserverInspect.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E0BA3F78EE664F1D71A3D4AB0366639A</key>
-		<dict>
-			<key>fileRef</key>
-			<string>67B92CAEE9F3AAA15CF03E2FF28B7828</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>E10C1A352F4286F056399AAD8802E78B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>UINavigationController+LeaksInspector.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E2E5B4BFD0F5DB88530947F54E8947A8</key>
-		<dict>
-			<key>fileRef</key>
-			<string>991F8AE02F470CE8FC1A31ACDCCBF440</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E4857BB5F692A5A6534DEEA8CE938176</key>
-		<dict>
-			<key>fileRef</key>
-			<string>D034D9C1022EBADC90D128C028B15F37</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>E8190387131E672F676C3ADBEFE930FD</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLDHeapStackTableViewController.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>E8E8EED322146AB4E4B912D7A2FC2FF4</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYTestLeaksController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>ED0995CF9FA68AB5B51B56C6596C2FE5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.script.sh</string>
-			<key>path</key>
-			<string>Pods-LYLeaksInspector_Example-resources.sh</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F112F9B7C260C5A4C8F71EB04E4CDE97</key>
-		<dict>
-			<key>fileRef</key>
-			<string>3C79E2E47F73B7538691BB80E8140B8A</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F197669F1FF7CDBB54D3948FC7547C4F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>5E3D21EA76BFBDDE505033A321F6A2CB</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>F259EE8D31957B907391D0F833B35E4E</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>text.plist.xml</string>
-			<key>path</key>
-			<string>Info.plist</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>F4F19C154BC2F205DC9DC2EA53FE2DC0</key>
-		<dict>
-			<key>fileRef</key>
-			<string>FA02356C9035E573BBE2B6B4CEFB6DA3</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>COMPILER_FLAGS</key>
-				<string>-fno-objc-arc</string>
-			</dict>
-		</dict>
-		<key>F8C469584A527B4A7FBCDFEB601510B4</key>
-		<dict>
-			<key>fileRef</key>
-			<string>7FF2643DA5E31661F93561115DDF0DCF</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>F92A2BD95DF45F53678474707906B69F</key>
-		<dict>
-			<key>fileRef</key>
-			<string>E8190387131E672F676C3ADBEFE930FD</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA02356C9035E573BBE2B6B4CEFB6DA3</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYLeaksDefined.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FA3C6524250651D15A72F02000A0C22D</key>
-		<dict>
-			<key>fileRef</key>
-			<string>44C93525A27028A8DF5E57B8CAB0C177</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FA7AFE949D68EC2E19FDF1D6EC4A3060</key>
-		<dict>
-			<key>explicitFileType</key>
-			<string>wrapper.framework</string>
-			<key>includeInIndex</key>
-			<string>0</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>name</key>
-			<string>Pods_LYLeaksInspector_Example.framework</string>
-			<key>path</key>
-			<string>Pods_LYLeaksInspector_Example.framework</string>
-			<key>sourceTree</key>
-			<string>BUILT_PRODUCTS_DIR</string>
-		</dict>
-		<key>FC71EDB44A93AC3EBC7D29649FE6359B</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.objc</string>
-			<key>path</key>
-			<string>LYHeapObjectEnumerator.m</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FD69BC9ED1946E564E2DBF95B61493F5</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLeaksInspector-prefix.pch</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FDAF013D4B6597D6725556FA579A6001</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6EBE5582F81F8DB06D4B85543DCDBD8F</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-		<key>FE053B1066929CFE236CB0062B445BDF</key>
-		<dict>
-			<key>includeInIndex</key>
-			<string>1</string>
-			<key>isa</key>
-			<string>PBXFileReference</string>
-			<key>lastKnownFileType</key>
-			<string>sourcecode.c.h</string>
-			<key>path</key>
-			<string>LYLDHeapDetailTableViewController.h</string>
-			<key>sourceTree</key>
-			<string>&lt;group&gt;</string>
-		</dict>
-		<key>FEB25A608F1A9AD0A6308F338E0EA7BC</key>
-		<dict>
-			<key>fileRef</key>
-			<string>9FD81303A9E56048F6AB63200402FCD8</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-		</dict>
-		<key>FF91BA4A3964C47AB6FBF19FB3FD2577</key>
-		<dict>
-			<key>fileRef</key>
-			<string>6A13AB5001F946E9C577546C059599B9</string>
-			<key>isa</key>
-			<string>PBXBuildFile</string>
-			<key>settings</key>
-			<dict>
-				<key>ATTRIBUTES</key>
-				<array>
-					<string>Public</string>
-				</array>
-			</dict>
-		</dict>
-	</dict>
-	<key>rootObject</key>
-	<string>D41D8CD98F00B204E9800998ECF8427E</string>
-</dict>
-</plist>
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 46;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		0576E6DE539AE29EA00D8C28C15BA71F /* LYLDPropertiesViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 5EF2B356CD4E71BCE25A7A71B3B8D7BE /* LYLDPropertiesViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0BC9F0C81A8FF49DB722F6693309663C /* LYTestLeaksView.h in Headers */ = {isa = PBXBuildFile; fileRef = 98B54D4F304626849C2360F70FF84D1A /* LYTestLeaksView.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		0C31AA61CBFC9BC1D8C348431A8E1CE0 /* UINavigationController+LeaksInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 2D5AC01281CEA92D239C529927D6324C /* UINavigationController+LeaksInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		12270CCFA157CBFAA58052C8F1879A6D /* LYLDViewHierarchyController.h in Headers */ = {isa = PBXBuildFile; fileRef = 038A090C5BC9165486104200854738B6 /* LYLDViewHierarchyController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		13798A4A445349E03AADA1ADDE3BBEB8 /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		1B9C3D3637BF20AE766D65AB60AD907D /* LYLDTableViewCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 904D2F93B82133F6695362F76DD41750 /* LYLDTableViewCell.m */; };
+		25B31D004057B3FE1F6E25DC0F0B8D91 /* LYLDHeapDetailTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 045952B80B2E350B817817B0987A4101 /* LYLDHeapDetailTableViewController.m */; };
+		2947817F9592A1EDDD087C6620EE5104 /* NSNotificationCenter+ObserverInspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 1A76A8B15738A4BA172DE1D769F39469 /* NSNotificationCenter+ObserverInspect.m */; };
+		2CAB4793F0395A7340E83F91BFEE1D84 /* NSObject+LeaksInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = C5124F672B27794FB4AD40FB912B3FD3 /* NSObject+LeaksInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		325D0906C04C8078F98C4714188F0253 /* LYLDResponderChainViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 2359A53D4AB00F0C09660FB35EF8E05D /* LYLDResponderChainViewController.m */; };
+		3B049A507980DD0BF1D2D6CD4D104673 /* LYLDTableViewCell.h in Headers */ = {isa = PBXBuildFile; fileRef = 70BAFECAB94F0234424AF9E6344E6300 /* LYLDTableViewCell.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		3F766A1507A4211B79B58A5102ED3FA6 /* LYHeapObjectEnumerator.m in Sources */ = {isa = PBXBuildFile; fileRef = FC71EDB44A93AC3EBC7D29649FE6359B /* LYHeapObjectEnumerator.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		4A8F66335A4462B2C8A007EDC9732D6A /* LYTestLeaksController.m in Sources */ = {isa = PBXBuildFile; fileRef = 7D75B072C62B71CEB15330899248EFED /* LYTestLeaksController.m */; };
+		57F0DE29C3E609E6B227F7BBB93A9879 /* NSObject+MRCDeallocInspect.h in Headers */ = {isa = PBXBuildFile; fileRef = 9F1A6B95ADB1C0BA019EDEF0DF8509D9 /* NSObject+MRCDeallocInspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		5A759EAB91FDD988E8F5956E7567ED50 /* NSObject+MRCInstanceValue.m in Sources */ = {isa = PBXBuildFile; fileRef = 6781DBF92930899022981908CECCD0C4 /* NSObject+MRCInstanceValue.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		5B65133D8962AC8FB32A47412A753A92 /* LYLDStringListController.m in Sources */ = {isa = PBXBuildFile; fileRef = 17E97463C4BACE3B6F97244E417A7516 /* LYLDStringListController.m */; };
+		6169528B8956B76E6BD45BD3C4E09282 /* LYLDSnapshotViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8674518859D62896BEAF8A6DD97EF0A0 /* LYLDSnapshotViewController.m */; };
+		72CEECBE6C004169C5C4FE0D15A41891 /* LYTestLeaksController.h in Headers */ = {isa = PBXBuildFile; fileRef = E8E8EED322146AB4E4B912D7A2FC2FF4 /* LYTestLeaksController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		78443181B0ECDB1FA31893F408FBFAD3 /* UIView+Recursive.h in Headers */ = {isa = PBXBuildFile; fileRef = 3858B6DEEE515DF0BA149CFF24657CE2 /* UIView+Recursive.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		85DF0505CE4EC7D7AD628FD1E99AC70D /* Pods-LYLeaksInspector_Example-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = CCD601ABD3DC7EFFA50FD05DAA206A3E /* Pods-LYLeaksInspector_Example-dummy.m */; };
+		88D6E17839ECBE7D5607A9A797174884 /* NSObject+MRCInstanceValue.h in Headers */ = {isa = PBXBuildFile; fileRef = 9DCD8700C43F4B6501E673B9F8CA2791 /* NSObject+MRCInstanceValue.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		8C45D78B29FDE13DDAEADD0C7AF86E57 /* LYHeapObjectEnumerator.h in Headers */ = {isa = PBXBuildFile; fileRef = AEF0A365FCF0AC58389AAC3183CE3241 /* LYHeapObjectEnumerator.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		9037A66747F055DE9423B7473DE84056 /* UIViewController+LeaksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 3C66082312968AC5323ED64DE47E98E5 /* UIViewController+LeaksInspector.m */; };
+		90C3F5BD4E6C4439AF5F9A8FA08D1AB4 /* LYLeaksInspector-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = 02473D424E91D46FB0E14ECBF6BA1AA3 /* LYLeaksInspector-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		915EFAD17ECC24816F824D5B7EF38500 /* LYLDHeapStackTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 76A10148ABBF1D55FF83D6CD6ACD9658 /* LYLDHeapStackTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		92B4621D904A9004E50B22C5406E5698 /* NSNotificationCenter+ObserverInspect.h in Headers */ = {isa = PBXBuildFile; fileRef = DD0E98EC485268660DB9D51E44E72A63 /* NSNotificationCenter+ObserverInspect.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		952D48E9561E2367E0B33682492D51E6 /* LYLDSnapshotViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 67E7B2EBCB4E693DB01EC465F5C8721D /* LYLDSnapshotViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		96D41E55EC6B95913E231727F40E5A7E /* LYNotificationMapper.m in Sources */ = {isa = PBXBuildFile; fileRef = 0D7E874C3946646DF9D1CB78B4441D7E /* LYNotificationMapper.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		989CDB10D31D1E01CC93E884C8E9E440 /* NSObject+MRCDeallocInspect.m in Sources */ = {isa = PBXBuildFile; fileRef = 05F74499F0BABA23503A6883B90507C8 /* NSObject+MRCDeallocInspect.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		A0B0E8B73325BD0D9165ACBC0AE3450F /* LYLDWindowController.h in Headers */ = {isa = PBXBuildFile; fileRef = 2A10B1F3DCD6958CF48A5E9B805F18D4 /* LYLDWindowController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A500F0D6AAB1F1214FBD423BB7F2276A /* LYLDViewHierarchyController.m in Sources */ = {isa = PBXBuildFile; fileRef = B7A2A200E39A3D3036708025D66FE4E8 /* LYLDViewHierarchyController.m */; };
+		A7C44AE003B52ECE449979F3C3C6BD59 /* Pods-LYLeaksInspector_Example-umbrella.h in Headers */ = {isa = PBXBuildFile; fileRef = C693C60FB3A1927AC1840EFD8A30C66F /* Pods-LYLeaksInspector_Example-umbrella.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		A8598AA29F273D202595EBDC92E6A60A /* UIView+LeaksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 5C6AB276E58DAF283D459B3438E00076 /* UIView+LeaksInspector.m */; };
+		AB7491715D66F40A2E248ADA5FA0E0E8 /* UIView+LeaksInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 1430D8BCE1FEA2F57640C6ADCD9F767E /* UIView+LeaksInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		AE20763545CD99EDF1A47FC4952A32AB /* Foundation.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */; };
+		B0B1D0FD46C53A4F672F68C5747D9E29 /* LYLDTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 553CED1351A2576DC36B3E3DD495A372 /* LYLDTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		BCC3FE23604C1846EF5B1A020DDFBD06 /* LYLDWindowController.m in Sources */ = {isa = PBXBuildFile; fileRef = AFFC3BAA3AEE9533F257C6056B808115 /* LYLDWindowController.m */; };
+		BD2FFC3AF6004DF376AE984260C11CE2 /* LYLDHeapDetailTableViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = FE053B1066929CFE236CB0062B445BDF /* LYLDHeapDetailTableViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C401A491B6732FCAF166E4470725EE0B /* LYLDStringListController.h in Headers */ = {isa = PBXBuildFile; fileRef = 171C0E212A6B2C52A606F5F767F094CC /* LYLDStringListController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		C4906C63064E183D9F61B5A0EE9C71EE /* LYLeaksDebugWindow.m in Sources */ = {isa = PBXBuildFile; fileRef = A34527290171C4EA35A321D5154A46ED /* LYLeaksDebugWindow.m */; };
+		CDECDBA75606125D75F857B8AAF57931 /* LYLDPropertiesViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 8E08C52F7C472727C624EA1C94C311B4 /* LYLDPropertiesViewController.m */; };
+		CE55B20FDF8DD38CB3CFDC0610E79E33 /* LYLDResponderChainViewController.h in Headers */ = {isa = PBXBuildFile; fileRef = 1B2998DAEFFAB31BDBE6DEED456CEEEC /* LYLDResponderChainViewController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		CF413275655A21F858C16BDB024CA1DD /* LYLeaksInspector-dummy.m in Sources */ = {isa = PBXBuildFile; fileRef = 5B43E3472B51727C4FC96188459C6955 /* LYLeaksInspector-dummy.m */; };
+		D5E81FC5E7C1166BB0D1FC7FF9E32D19 /* LYLDViewLeakStackController.m in Sources */ = {isa = PBXBuildFile; fileRef = A54040FE4A1D53330AB41BD9D7A5868F /* LYLDViewLeakStackController.m */; };
+		D830DC7543BAAC90F6F352504E24013F /* LYLDViewLeakStackController.h in Headers */ = {isa = PBXBuildFile; fileRef = 126D94F8CEAE75BC38E6B2C5AD35E2C7 /* LYLDViewLeakStackController.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		DBC562873AA39DDC57544D1DE7FD35FA /* UINavigationController+LeaksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = E10C1A352F4286F056399AAD8802E78B /* UINavigationController+LeaksInspector.m */; };
+		E0BA3F78EE664F1D71A3D4AB0366639A /* LYLeaksDebugWindow.h in Headers */ = {isa = PBXBuildFile; fileRef = 67B92CAEE9F3AAA15CF03E2FF28B7828 /* LYLeaksDebugWindow.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		E2E5B4BFD0F5DB88530947F54E8947A8 /* LYTestLeaksView.m in Sources */ = {isa = PBXBuildFile; fileRef = 991F8AE02F470CE8FC1A31ACDCCBF440 /* LYTestLeaksView.m */; };
+		E4857BB5F692A5A6534DEEA8CE938176 /* NSObject+LeaksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = D034D9C1022EBADC90D128C028B15F37 /* NSObject+LeaksInspector.m */; };
+		F112F9B7C260C5A4C8F71EB04E4CDE97 /* LYLeaksInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 3C79E2E47F73B7538691BB80E8140B8A /* LYLeaksInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F197669F1FF7CDBB54D3948FC7547C4F /* UIViewController+LeaksInspector.h in Headers */ = {isa = PBXBuildFile; fileRef = 5E3D21EA76BFBDDE505033A321F6A2CB /* UIViewController+LeaksInspector.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		F4F19C154BC2F205DC9DC2EA53FE2DC0 /* LYLeaksDefined.m in Sources */ = {isa = PBXBuildFile; fileRef = FA02356C9035E573BBE2B6B4CEFB6DA3 /* LYLeaksDefined.m */; settings = {COMPILER_FLAGS = "-fno-objc-arc"; }; };
+		F8C469584A527B4A7FBCDFEB601510B4 /* LYLeaksInspector.m in Sources */ = {isa = PBXBuildFile; fileRef = 7FF2643DA5E31661F93561115DDF0DCF /* LYLeaksInspector.m */; };
+		F92A2BD95DF45F53678474707906B69F /* LYLDHeapStackTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = E8190387131E672F676C3ADBEFE930FD /* LYLDHeapStackTableViewController.m */; };
+		FA3C6524250651D15A72F02000A0C22D /* LYLDTableViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 44C93525A27028A8DF5E57B8CAB0C177 /* LYLDTableViewController.m */; };
+		FDAF013D4B6597D6725556FA579A6001 /* LYNotificationMapper.h in Headers */ = {isa = PBXBuildFile; fileRef = 6EBE5582F81F8DB06D4B85543DCDBD8F /* LYNotificationMapper.h */; settings = {ATTRIBUTES = (Public, ); }; };
+		FEB25A608F1A9AD0A6308F338E0EA7BC /* UIView+Recursive.m in Sources */ = {isa = PBXBuildFile; fileRef = 9FD81303A9E56048F6AB63200402FCD8 /* UIView+Recursive.m */; };
+		FF91BA4A3964C47AB6FBF19FB3FD2577 /* LYLeaksDefined.h in Headers */ = {isa = PBXBuildFile; fileRef = 6A13AB5001F946E9C577546C059599B9 /* LYLeaksDefined.h */; settings = {ATTRIBUTES = (Public, ); }; };
+/* End PBXBuildFile section */
+
+/* Begin PBXContainerItemProxy section */
+		90B88A5D5B2369A6E2ACF391623DB51F /* PBXContainerItemProxy */ = {
+			isa = PBXContainerItemProxy;
+			containerPortal = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+			proxyType = 1;
+			remoteGlobalIDString = 2316A95395FBED7CBABAD73F608BF8EA;
+			remoteInfo = LYLeaksInspector;
+		};
+/* End PBXContainerItemProxy section */
+
+/* Begin PBXFileReference section */
+		02473D424E91D46FB0E14ECBF6BA1AA3 /* LYLeaksInspector-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYLeaksInspector-umbrella.h"; sourceTree = "<group>"; };
+		038A090C5BC9165486104200854738B6 /* LYLDViewHierarchyController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDViewHierarchyController.h; sourceTree = "<group>"; };
+		045952B80B2E350B817817B0987A4101 /* LYLDHeapDetailTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDHeapDetailTableViewController.m; sourceTree = "<group>"; };
+		05F74499F0BABA23503A6883B90507C8 /* NSObject+MRCDeallocInspect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MRCDeallocInspect.m"; sourceTree = "<group>"; };
+		0D7E874C3946646DF9D1CB78B4441D7E /* LYNotificationMapper.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYNotificationMapper.m; sourceTree = "<group>"; };
+		126D94F8CEAE75BC38E6B2C5AD35E2C7 /* LYLDViewLeakStackController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDViewLeakStackController.h; sourceTree = "<group>"; };
+		1430D8BCE1FEA2F57640C6ADCD9F767E /* UIView+LeaksInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+LeaksInspector.h"; sourceTree = "<group>"; };
+		171C0E212A6B2C52A606F5F767F094CC /* LYLDStringListController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDStringListController.h; sourceTree = "<group>"; };
+		17E97463C4BACE3B6F97244E417A7516 /* LYLDStringListController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDStringListController.m; sourceTree = "<group>"; };
+		1A76A8B15738A4BA172DE1D769F39469 /* NSNotificationCenter+ObserverInspect.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSNotificationCenter+ObserverInspect.m"; sourceTree = "<group>"; };
+		1B2998DAEFFAB31BDBE6DEED456CEEEC /* LYLDResponderChainViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDResponderChainViewController.h; sourceTree = "<group>"; };
+		2359A53D4AB00F0C09660FB35EF8E05D /* LYLDResponderChainViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDResponderChainViewController.m; sourceTree = "<group>"; };
+		29EC8D897639F8B69A1A099938523599 /* Pods-LYLeaksInspector_Example-acknowledgements.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = "Pods-LYLeaksInspector_Example-acknowledgements.plist"; sourceTree = "<group>"; };
+		2A10B1F3DCD6958CF48A5E9B805F18D4 /* LYLDWindowController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDWindowController.h; sourceTree = "<group>"; };
+		2D5AC01281CEA92D239C529927D6324C /* UINavigationController+LeaksInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UINavigationController+LeaksInspector.h"; sourceTree = "<group>"; };
+		314743A4DEDB31903449A4709CAD82EA /* Pods-LYLeaksInspector_Example.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYLeaksInspector_Example.debug.xcconfig"; sourceTree = "<group>"; };
+		3858B6DEEE515DF0BA149CFF24657CE2 /* UIView+Recursive.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIView+Recursive.h"; sourceTree = "<group>"; };
+		3C66082312968AC5323ED64DE47E98E5 /* UIViewController+LeaksInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIViewController+LeaksInspector.m"; sourceTree = "<group>"; };
+		3C79E2E47F73B7538691BB80E8140B8A /* LYLeaksInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLeaksInspector.h; sourceTree = "<group>"; };
+		3DB07CF39EB353ED9C5EF40B8B49A7C4 /* LYLeaksInspector.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = LYLeaksInspector.xcconfig; sourceTree = "<group>"; };
+		3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */ = {isa = PBXFileReference; lastKnownFileType = wrapper.framework; name = Foundation.framework; path = Platforms/iPhoneOS.platform/Developer/SDKs/iPhoneOS9.0.sdk/System/Library/Frameworks/Foundation.framework; sourceTree = DEVELOPER_DIR; };
+		44C93525A27028A8DF5E57B8CAB0C177 /* LYLDTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDTableViewController.m; sourceTree = "<group>"; };
+		553CED1351A2576DC36B3E3DD495A372 /* LYLDTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDTableViewController.h; sourceTree = "<group>"; };
+		5B43E3472B51727C4FC96188459C6955 /* LYLeaksInspector-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "LYLeaksInspector-dummy.m"; sourceTree = "<group>"; };
+		5C6AB276E58DAF283D459B3438E00076 /* UIView+LeaksInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+LeaksInspector.m"; sourceTree = "<group>"; };
+		5E3D21EA76BFBDDE505033A321F6A2CB /* UIViewController+LeaksInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "UIViewController+LeaksInspector.h"; sourceTree = "<group>"; };
+		5EF2B356CD4E71BCE25A7A71B3B8D7BE /* LYLDPropertiesViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDPropertiesViewController.h; sourceTree = "<group>"; };
+		657D6541B33180839E9D25D165EBFD5A /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		6781DBF92930899022981908CECCD0C4 /* NSObject+MRCInstanceValue.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+MRCInstanceValue.m"; sourceTree = "<group>"; };
+		67B92CAEE9F3AAA15CF03E2FF28B7828 /* LYLeaksDebugWindow.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLeaksDebugWindow.h; sourceTree = "<group>"; };
+		67E7B2EBCB4E693DB01EC465F5C8721D /* LYLDSnapshotViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDSnapshotViewController.h; sourceTree = "<group>"; };
+		6A13AB5001F946E9C577546C059599B9 /* LYLeaksDefined.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLeaksDefined.h; sourceTree = "<group>"; };
+		6EBE5582F81F8DB06D4B85543DCDBD8F /* LYNotificationMapper.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYNotificationMapper.h; sourceTree = "<group>"; };
+		70BAFECAB94F0234424AF9E6344E6300 /* LYLDTableViewCell.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDTableViewCell.h; sourceTree = "<group>"; };
+		76A10148ABBF1D55FF83D6CD6ACD9658 /* LYLDHeapStackTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDHeapStackTableViewController.h; sourceTree = "<group>"; };
+		7D75B072C62B71CEB15330899248EFED /* LYTestLeaksController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYTestLeaksController.m; sourceTree = "<group>"; };
+		7FF2643DA5E31661F93561115DDF0DCF /* LYLeaksInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLeaksInspector.m; sourceTree = "<group>"; };
+		8674518859D62896BEAF8A6DD97EF0A0 /* LYLDSnapshotViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDSnapshotViewController.m; sourceTree = "<group>"; };
+		8E08C52F7C472727C624EA1C94C311B4 /* LYLDPropertiesViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDPropertiesViewController.m; sourceTree = "<group>"; };
+		904D2F93B82133F6695362F76DD41750 /* LYLDTableViewCell.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDTableViewCell.m; sourceTree = "<group>"; };
+		98B54D4F304626849C2360F70FF84D1A /* LYTestLeaksView.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYTestLeaksView.h; sourceTree = "<group>"; };
+		991F8AE02F470CE8FC1A31ACDCCBF440 /* LYTestLeaksView.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYTestLeaksView.m; sourceTree = "<group>"; };
+		9999CA8AD040B5486AE7852CA76CE127 /* LYLeaksInspector.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = LYLeaksInspector.modulemap; sourceTree = "<group>"; };
+		9DCD8700C43F4B6501E673B9F8CA2791 /* NSObject+MRCInstanceValue.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MRCInstanceValue.h"; sourceTree = "<group>"; };
+		9F1A6B95ADB1C0BA019EDEF0DF8509D9 /* NSObject+MRCDeallocInspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+MRCDeallocInspect.h"; sourceTree = "<group>"; };
+		9FD81303A9E56048F6AB63200402FCD8 /* UIView+Recursive.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UIView+Recursive.m"; sourceTree = "<group>"; };
+		A34527290171C4EA35A321D5154A46ED /* LYLeaksDebugWindow.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLeaksDebugWindow.m; sourceTree = "<group>"; };
+		A54040FE4A1D53330AB41BD9D7A5868F /* LYLDViewLeakStackController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDViewLeakStackController.m; sourceTree = "<group>"; };
+		ABC58B8C6E69A3FD9D7BAA71986F2327 /* Pods-LYLeaksInspector_Example.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; path = "Pods-LYLeaksInspector_Example.release.xcconfig"; sourceTree = "<group>"; };
+		AEF0A365FCF0AC58389AAC3183CE3241 /* LYHeapObjectEnumerator.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYHeapObjectEnumerator.h; sourceTree = "<group>"; };
+		AFFC3BAA3AEE9533F257C6056B808115 /* LYLDWindowController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDWindowController.m; sourceTree = "<group>"; };
+		B34C324DC852EB515D070E8F6722FE92 /* Pods-LYLeaksInspector_Example-acknowledgements.markdown */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; path = "Pods-LYLeaksInspector_Example-acknowledgements.markdown"; sourceTree = "<group>"; };
+		B7A2A200E39A3D3036708025D66FE4E8 /* LYLDViewHierarchyController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDViewHierarchyController.m; sourceTree = "<group>"; };
+		BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = Podfile; path = ../Podfile; sourceTree = SOURCE_ROOT; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
+		BFD8F7D074BD70D252E0281925A18E98 /* LYLeaksInspector.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = LYLeaksInspector.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		C5124F672B27794FB4AD40FB912B3FD3 /* NSObject+LeaksInspector.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSObject+LeaksInspector.h"; sourceTree = "<group>"; };
+		C693C60FB3A1927AC1840EFD8A30C66F /* Pods-LYLeaksInspector_Example-umbrella.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "Pods-LYLeaksInspector_Example-umbrella.h"; sourceTree = "<group>"; };
+		C6FF2FB67F3DBC4AB4EB1BF505961520 /* Pods-LYLeaksInspector_Example.modulemap */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = "sourcecode.module-map"; path = "Pods-LYLeaksInspector_Example.modulemap"; sourceTree = "<group>"; };
+		CCD601ABD3DC7EFFA50FD05DAA206A3E /* Pods-LYLeaksInspector_Example-dummy.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "Pods-LYLeaksInspector_Example-dummy.m"; sourceTree = "<group>"; };
+		D034D9C1022EBADC90D128C028B15F37 /* NSObject+LeaksInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "NSObject+LeaksInspector.m"; sourceTree = "<group>"; };
+		D1ED22E01B532C5D47D1DF2DA2FECAB0 /* Pods-LYLeaksInspector_Example-frameworks.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYLeaksInspector_Example-frameworks.sh"; sourceTree = "<group>"; };
+		DD0E98EC485268660DB9D51E44E72A63 /* NSNotificationCenter+ObserverInspect.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "NSNotificationCenter+ObserverInspect.h"; sourceTree = "<group>"; };
+		E10C1A352F4286F056399AAD8802E78B /* UINavigationController+LeaksInspector.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = "UINavigationController+LeaksInspector.m"; sourceTree = "<group>"; };
+		E8190387131E672F676C3ADBEFE930FD /* LYLDHeapStackTableViewController.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLDHeapStackTableViewController.m; sourceTree = "<group>"; };
+		E8E8EED322146AB4E4B912D7A2FC2FF4 /* LYTestLeaksController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYTestLeaksController.h; sourceTree = "<group>"; };
+		ED0995CF9FA68AB5B51B56C6596C2FE5 /* Pods-LYLeaksInspector_Example-resources.sh */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.script.sh; path = "Pods-LYLeaksInspector_Example-resources.sh"; sourceTree = "<group>"; };
+		F259EE8D31957B907391D0F833B35E4E /* Info.plist */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		FA02356C9035E573BBE2B6B4CEFB6DA3 /* LYLeaksDefined.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYLeaksDefined.m; sourceTree = "<group>"; };
+		FA7AFE949D68EC2E19FDF1D6EC4A3060 /* Pods_LYLeaksInspector_Example.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_LYLeaksInspector_Example.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		FC71EDB44A93AC3EBC7D29649FE6359B /* LYHeapObjectEnumerator.m */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.objc; path = LYHeapObjectEnumerator.m; sourceTree = "<group>"; };
+		FD69BC9ED1946E564E2DBF95B61493F5 /* LYLeaksInspector-prefix.pch */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = "LYLeaksInspector-prefix.pch"; sourceTree = "<group>"; };
+		FE053B1066929CFE236CB0062B445BDF /* LYLDHeapDetailTableViewController.h */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = sourcecode.c.h; path = LYLDHeapDetailTableViewController.h; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		D10910BC300EDD543E099090E77BF3B1 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				AE20763545CD99EDF1A47FC4952A32AB /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		D9A65E136AB6AB98F749479BA73F6E88 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				13798A4A445349E03AADA1ADDE3BBEB8 /* Foundation.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		12E8FED76DDFEA5C9CC7CBD50B0E1C40 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				BFD8F7D074BD70D252E0281925A18E98 /* LYLeaksInspector.framework */,
+				FA7AFE949D68EC2E19FDF1D6EC4A3060 /* Pods_LYLeaksInspector_Example.framework */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		14B0F36C7B08E1BA269EA7F08DC0AD9F /* Targets Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				8F12599292969DDEB0DDDE80EC24074F /* Pods-LYLeaksInspector_Example */,
+			);
+			name = "Targets Support Files";
+			sourceTree = "<group>";
+		};
+		3A5529424C1EA133FC74121D67622CDE /* Support Files */ = {
+			isa = PBXGroup;
+			children = (
+				F259EE8D31957B907391D0F833B35E4E /* Info.plist */,
+				9999CA8AD040B5486AE7852CA76CE127 /* LYLeaksInspector.modulemap */,
+				3DB07CF39EB353ED9C5EF40B8B49A7C4 /* LYLeaksInspector.xcconfig */,
+				5B43E3472B51727C4FC96188459C6955 /* LYLeaksInspector-dummy.m */,
+				FD69BC9ED1946E564E2DBF95B61493F5 /* LYLeaksInspector-prefix.pch */,
+				02473D424E91D46FB0E14ECBF6BA1AA3 /* LYLeaksInspector-umbrella.h */,
+			);
+			name = "Support Files";
+			path = "Example/Pods/Target Support Files/LYLeaksInspector";
+			sourceTree = "<group>";
+		};
+		3EE4A8B31265ACCECA2D815CEAEF5D27 /* LYLeaksInspector */ = {
+			isa = PBXGroup;
+			children = (
+				D815A85D424C282F36BB5D91BB8CB121 /* Classes */,
+			);
+			path = LYLeaksInspector;
+			sourceTree = "<group>";
+		};
+		525BD43BABD1C0823D15334B3EDE0140 /* UI */ = {
+			isa = PBXGroup;
+			children = (
+				FE053B1066929CFE236CB0062B445BDF /* LYLDHeapDetailTableViewController.h */,
+				045952B80B2E350B817817B0987A4101 /* LYLDHeapDetailTableViewController.m */,
+				76A10148ABBF1D55FF83D6CD6ACD9658 /* LYLDHeapStackTableViewController.h */,
+				E8190387131E672F676C3ADBEFE930FD /* LYLDHeapStackTableViewController.m */,
+				5EF2B356CD4E71BCE25A7A71B3B8D7BE /* LYLDPropertiesViewController.h */,
+				8E08C52F7C472727C624EA1C94C311B4 /* LYLDPropertiesViewController.m */,
+				1B2998DAEFFAB31BDBE6DEED456CEEEC /* LYLDResponderChainViewController.h */,
+				2359A53D4AB00F0C09660FB35EF8E05D /* LYLDResponderChainViewController.m */,
+				67E7B2EBCB4E693DB01EC465F5C8721D /* LYLDSnapshotViewController.h */,
+				8674518859D62896BEAF8A6DD97EF0A0 /* LYLDSnapshotViewController.m */,
+				171C0E212A6B2C52A606F5F767F094CC /* LYLDStringListController.h */,
+				17E97463C4BACE3B6F97244E417A7516 /* LYLDStringListController.m */,
+				70BAFECAB94F0234424AF9E6344E6300 /* LYLDTableViewCell.h */,
+				904D2F93B82133F6695362F76DD41750 /* LYLDTableViewCell.m */,
+				553CED1351A2576DC36B3E3DD495A372 /* LYLDTableViewController.h */,
+				44C93525A27028A8DF5E57B8CAB0C177 /* LYLDTableViewController.m */,
+				038A090C5BC9165486104200854738B6 /* LYLDViewHierarchyController.h */,
+				B7A2A200E39A3D3036708025D66FE4E8 /* LYLDViewHierarchyController.m */,
+				126D94F8CEAE75BC38E6B2C5AD35E2C7 /* LYLDViewLeakStackController.h */,
+				A54040FE4A1D53330AB41BD9D7A5868F /* LYLDViewLeakStackController.m */,
+				2A10B1F3DCD6958CF48A5E9B805F18D4 /* LYLDWindowController.h */,
+				AFFC3BAA3AEE9533F257C6056B808115 /* LYLDWindowController.m */,
+				67B92CAEE9F3AAA15CF03E2FF28B7828 /* LYLeaksDebugWindow.h */,
+				A34527290171C4EA35A321D5154A46ED /* LYLeaksDebugWindow.m */,
+				E8E8EED322146AB4E4B912D7A2FC2FF4 /* LYTestLeaksController.h */,
+				7D75B072C62B71CEB15330899248EFED /* LYTestLeaksController.m */,
+				98B54D4F304626849C2360F70FF84D1A /* LYTestLeaksView.h */,
+				991F8AE02F470CE8FC1A31ACDCCBF440 /* LYTestLeaksView.m */,
+			);
+			path = UI;
+			sourceTree = "<group>";
+		};
+		678BAE6990A8161921F5808C03E00AE4 /* LYLeaksInspector */ = {
+			isa = PBXGroup;
+			children = (
+				3EE4A8B31265ACCECA2D815CEAEF5D27 /* LYLeaksInspector */,
+				6A8F8AC9DE0B72CD11EA8E1D05F97B65 /* no-arc */,
+				3A5529424C1EA133FC74121D67622CDE /* Support Files */,
+			);
+			name = LYLeaksInspector;
+			path = ../..;
+			sourceTree = "<group>";
+		};
+		6A8F8AC9DE0B72CD11EA8E1D05F97B65 /* no-arc */ = {
+			isa = PBXGroup;
+			children = (
+				7CA106A0C5AD6D14608D75AEBCE0938E /* LYLeaksInspector */,
+			);
+			name = "no-arc";
+			sourceTree = "<group>";
+		};
+		6BE89F080D838B9AFA86EB95A058DBEF /* Categories */ = {
+			isa = PBXGroup;
+			children = (
+				DD0E98EC485268660DB9D51E44E72A63 /* NSNotificationCenter+ObserverInspect.h */,
+				1A76A8B15738A4BA172DE1D769F39469 /* NSNotificationCenter+ObserverInspect.m */,
+				C5124F672B27794FB4AD40FB912B3FD3 /* NSObject+LeaksInspector.h */,
+				D034D9C1022EBADC90D128C028B15F37 /* NSObject+LeaksInspector.m */,
+				2D5AC01281CEA92D239C529927D6324C /* UINavigationController+LeaksInspector.h */,
+				E10C1A352F4286F056399AAD8802E78B /* UINavigationController+LeaksInspector.m */,
+				1430D8BCE1FEA2F57640C6ADCD9F767E /* UIView+LeaksInspector.h */,
+				5C6AB276E58DAF283D459B3438E00076 /* UIView+LeaksInspector.m */,
+				3858B6DEEE515DF0BA149CFF24657CE2 /* UIView+Recursive.h */,
+				9FD81303A9E56048F6AB63200402FCD8 /* UIView+Recursive.m */,
+				5E3D21EA76BFBDDE505033A321F6A2CB /* UIViewController+LeaksInspector.h */,
+				3C66082312968AC5323ED64DE47E98E5 /* UIViewController+LeaksInspector.m */,
+			);
+			path = Categories;
+			sourceTree = "<group>";
+		};
+		71100A54F2D13D3614C52A5343995D17 /* DebugUtils */ = {
+			isa = PBXGroup;
+			children = (
+				3C79E2E47F73B7538691BB80E8140B8A /* LYLeaksInspector.h */,
+				7FF2643DA5E31661F93561115DDF0DCF /* LYLeaksInspector.m */,
+			);
+			path = DebugUtils;
+			sourceTree = "<group>";
+		};
+		7CA106A0C5AD6D14608D75AEBCE0938E /* LYLeaksInspector */ = {
+			isa = PBXGroup;
+			children = (
+				A5513D6273AFD2ADF4C4F9383F7F1735 /* Classes */,
+			);
+			path = LYLeaksInspector;
+			sourceTree = "<group>";
+		};
+		7DB346D0F39D3F0E887471402A8071AB = {
+			isa = PBXGroup;
+			children = (
+				BA6428E9F66FD5A23C0A2E06ED26CD2F /* Podfile */,
+				8E13FFA9E43E5F14CAF2B432116A3223 /* Development Pods */,
+				BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */,
+				12E8FED76DDFEA5C9CC7CBD50B0E1C40 /* Products */,
+				14B0F36C7B08E1BA269EA7F08DC0AD9F /* Targets Support Files */,
+			);
+			sourceTree = "<group>";
+		};
+		8E13FFA9E43E5F14CAF2B432116A3223 /* Development Pods */ = {
+			isa = PBXGroup;
+			children = (
+				678BAE6990A8161921F5808C03E00AE4 /* LYLeaksInspector */,
+			);
+			name = "Development Pods";
+			sourceTree = "<group>";
+		};
+		8F12599292969DDEB0DDDE80EC24074F /* Pods-LYLeaksInspector_Example */ = {
+			isa = PBXGroup;
+			children = (
+				657D6541B33180839E9D25D165EBFD5A /* Info.plist */,
+				C6FF2FB67F3DBC4AB4EB1BF505961520 /* Pods-LYLeaksInspector_Example.modulemap */,
+				B34C324DC852EB515D070E8F6722FE92 /* Pods-LYLeaksInspector_Example-acknowledgements.markdown */,
+				29EC8D897639F8B69A1A099938523599 /* Pods-LYLeaksInspector_Example-acknowledgements.plist */,
+				CCD601ABD3DC7EFFA50FD05DAA206A3E /* Pods-LYLeaksInspector_Example-dummy.m */,
+				D1ED22E01B532C5D47D1DF2DA2FECAB0 /* Pods-LYLeaksInspector_Example-frameworks.sh */,
+				ED0995CF9FA68AB5B51B56C6596C2FE5 /* Pods-LYLeaksInspector_Example-resources.sh */,
+				C693C60FB3A1927AC1840EFD8A30C66F /* Pods-LYLeaksInspector_Example-umbrella.h */,
+				314743A4DEDB31903449A4709CAD82EA /* Pods-LYLeaksInspector_Example.debug.xcconfig */,
+				ABC58B8C6E69A3FD9D7BAA71986F2327 /* Pods-LYLeaksInspector_Example.release.xcconfig */,
+			);
+			name = "Pods-LYLeaksInspector_Example";
+			path = "Target Support Files/Pods-LYLeaksInspector_Example";
+			sourceTree = "<group>";
+		};
+		97348C6B3F964303B660BB455EA22A97 /* MRC */ = {
+			isa = PBXGroup;
+			children = (
+				AEF0A365FCF0AC58389AAC3183CE3241 /* LYHeapObjectEnumerator.h */,
+				FC71EDB44A93AC3EBC7D29649FE6359B /* LYHeapObjectEnumerator.m */,
+				6A13AB5001F946E9C577546C059599B9 /* LYLeaksDefined.h */,
+				FA02356C9035E573BBE2B6B4CEFB6DA3 /* LYLeaksDefined.m */,
+				6EBE5582F81F8DB06D4B85543DCDBD8F /* LYNotificationMapper.h */,
+				0D7E874C3946646DF9D1CB78B4441D7E /* LYNotificationMapper.m */,
+				9F1A6B95ADB1C0BA019EDEF0DF8509D9 /* NSObject+MRCDeallocInspect.h */,
+				05F74499F0BABA23503A6883B90507C8 /* NSObject+MRCDeallocInspect.m */,
+				9DCD8700C43F4B6501E673B9F8CA2791 /* NSObject+MRCInstanceValue.h */,
+				6781DBF92930899022981908CECCD0C4 /* NSObject+MRCInstanceValue.m */,
+			);
+			path = MRC;
+			sourceTree = "<group>";
+		};
+		A5513D6273AFD2ADF4C4F9383F7F1735 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				97348C6B3F964303B660BB455EA22A97 /* MRC */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+		BC3CA7F9E30CC8F7E2DD044DD34432FC /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		BF6342C8B29F4CEEA088EFF7AB4DE362 /* iOS */ = {
+			isa = PBXGroup;
+			children = (
+				3E4E89230EF59BC255123B67864ACF77 /* Foundation.framework */,
+			);
+			name = iOS;
+			sourceTree = "<group>";
+		};
+		D815A85D424C282F36BB5D91BB8CB121 /* Classes */ = {
+			isa = PBXGroup;
+			children = (
+				6BE89F080D838B9AFA86EB95A058DBEF /* Categories */,
+				71100A54F2D13D3614C52A5343995D17 /* DebugUtils */,
+				525BD43BABD1C0823D15334B3EDE0140 /* UI */,
+			);
+			path = Classes;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXHeadersBuildPhase section */
+		139534B723A41BA67EBC57B9B3246649 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				A7C44AE003B52ECE449979F3C3C6BD59 /* Pods-LYLeaksInspector_Example-umbrella.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		88A0D3860E1DDE6F862A454AF7402C38 /* Headers */ = {
+			isa = PBXHeadersBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				8C45D78B29FDE13DDAEADD0C7AF86E57 /* LYHeapObjectEnumerator.h in Headers */,
+				BD2FFC3AF6004DF376AE984260C11CE2 /* LYLDHeapDetailTableViewController.h in Headers */,
+				915EFAD17ECC24816F824D5B7EF38500 /* LYLDHeapStackTableViewController.h in Headers */,
+				0576E6DE539AE29EA00D8C28C15BA71F /* LYLDPropertiesViewController.h in Headers */,
+				CE55B20FDF8DD38CB3CFDC0610E79E33 /* LYLDResponderChainViewController.h in Headers */,
+				952D48E9561E2367E0B33682492D51E6 /* LYLDSnapshotViewController.h in Headers */,
+				C401A491B6732FCAF166E4470725EE0B /* LYLDStringListController.h in Headers */,
+				3B049A507980DD0BF1D2D6CD4D104673 /* LYLDTableViewCell.h in Headers */,
+				B0B1D0FD46C53A4F672F68C5747D9E29 /* LYLDTableViewController.h in Headers */,
+				12270CCFA157CBFAA58052C8F1879A6D /* LYLDViewHierarchyController.h in Headers */,
+				D830DC7543BAAC90F6F352504E24013F /* LYLDViewLeakStackController.h in Headers */,
+				A0B0E8B73325BD0D9165ACBC0AE3450F /* LYLDWindowController.h in Headers */,
+				E0BA3F78EE664F1D71A3D4AB0366639A /* LYLeaksDebugWindow.h in Headers */,
+				FF91BA4A3964C47AB6FBF19FB3FD2577 /* LYLeaksDefined.h in Headers */,
+				90C3F5BD4E6C4439AF5F9A8FA08D1AB4 /* LYLeaksInspector-umbrella.h in Headers */,
+				F112F9B7C260C5A4C8F71EB04E4CDE97 /* LYLeaksInspector.h in Headers */,
+				FDAF013D4B6597D6725556FA579A6001 /* LYNotificationMapper.h in Headers */,
+				72CEECBE6C004169C5C4FE0D15A41891 /* LYTestLeaksController.h in Headers */,
+				0BC9F0C81A8FF49DB722F6693309663C /* LYTestLeaksView.h in Headers */,
+				92B4621D904A9004E50B22C5406E5698 /* NSNotificationCenter+ObserverInspect.h in Headers */,
+				2CAB4793F0395A7340E83F91BFEE1D84 /* NSObject+LeaksInspector.h in Headers */,
+				57F0DE29C3E609E6B227F7BBB93A9879 /* NSObject+MRCDeallocInspect.h in Headers */,
+				88D6E17839ECBE7D5607A9A797174884 /* NSObject+MRCInstanceValue.h in Headers */,
+				0C31AA61CBFC9BC1D8C348431A8E1CE0 /* UINavigationController+LeaksInspector.h in Headers */,
+				AB7491715D66F40A2E248ADA5FA0E0E8 /* UIView+LeaksInspector.h in Headers */,
+				78443181B0ECDB1FA31893F408FBFAD3 /* UIView+Recursive.h in Headers */,
+				F197669F1FF7CDBB54D3948FC7547C4F /* UIViewController+LeaksInspector.h in Headers */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXHeadersBuildPhase section */
+
+/* Begin PBXNativeTarget section */
+		0BFD7287EDDC26951C57439E029603BF /* Pods-LYLeaksInspector_Example */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 6ED82C83000A96D832BD77555B010CBA /* Build configuration list for PBXNativeTarget "Pods-LYLeaksInspector_Example" */;
+			buildPhases = (
+				B370D312A6587B12D967B99870858D74 /* Sources */,
+				D10910BC300EDD543E099090E77BF3B1 /* Frameworks */,
+				139534B723A41BA67EBC57B9B3246649 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+				9F2E254C282D23FFEF68A07F5F0559D6 /* PBXTargetDependency */,
+			);
+			name = "Pods-LYLeaksInspector_Example";
+			productName = "Pods-LYLeaksInspector_Example";
+			productReference = FA7AFE949D68EC2E19FDF1D6EC4A3060 /* Pods_LYLeaksInspector_Example.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+		2316A95395FBED7CBABAD73F608BF8EA /* LYLeaksInspector */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 2488115AFD9B97C3288FE629DAC7135B /* Build configuration list for PBXNativeTarget "LYLeaksInspector" */;
+			buildPhases = (
+				25B4FB17B3B47086399EDBE89D8BAE6A /* Sources */,
+				D9A65E136AB6AB98F749479BA73F6E88 /* Frameworks */,
+				88A0D3860E1DDE6F862A454AF7402C38 /* Headers */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = LYLeaksInspector;
+			productName = LYLeaksInspector;
+			productReference = BFD8F7D074BD70D252E0281925A18E98 /* LYLeaksInspector.framework */;
+			productType = "com.apple.product-type.framework";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		D41D8CD98F00B204E9800998ECF8427E /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0700;
+				LastUpgradeCheck = 0700;
+			};
+			buildConfigurationList = 2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */;
+			compatibilityVersion = "Xcode 3.2";
+			developmentRegion = English;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+			);
+			mainGroup = 7DB346D0F39D3F0E887471402A8071AB;
+			productRefGroup = 12E8FED76DDFEA5C9CC7CBD50B0E1C40 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				2316A95395FBED7CBABAD73F608BF8EA /* LYLeaksInspector */,
+				0BFD7287EDDC26951C57439E029603BF /* Pods-LYLeaksInspector_Example */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXSourcesBuildPhase section */
+		25B4FB17B3B47086399EDBE89D8BAE6A /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				3F766A1507A4211B79B58A5102ED3FA6 /* LYHeapObjectEnumerator.m in Sources */,
+				25B31D004057B3FE1F6E25DC0F0B8D91 /* LYLDHeapDetailTableViewController.m in Sources */,
+				F92A2BD95DF45F53678474707906B69F /* LYLDHeapStackTableViewController.m in Sources */,
+				CDECDBA75606125D75F857B8AAF57931 /* LYLDPropertiesViewController.m in Sources */,
+				325D0906C04C8078F98C4714188F0253 /* LYLDResponderChainViewController.m in Sources */,
+				6169528B8956B76E6BD45BD3C4E09282 /* LYLDSnapshotViewController.m in Sources */,
+				5B65133D8962AC8FB32A47412A753A92 /* LYLDStringListController.m in Sources */,
+				1B9C3D3637BF20AE766D65AB60AD907D /* LYLDTableViewCell.m in Sources */,
+				FA3C6524250651D15A72F02000A0C22D /* LYLDTableViewController.m in Sources */,
+				A500F0D6AAB1F1214FBD423BB7F2276A /* LYLDViewHierarchyController.m in Sources */,
+				D5E81FC5E7C1166BB0D1FC7FF9E32D19 /* LYLDViewLeakStackController.m in Sources */,
+				BCC3FE23604C1846EF5B1A020DDFBD06 /* LYLDWindowController.m in Sources */,
+				C4906C63064E183D9F61B5A0EE9C71EE /* LYLeaksDebugWindow.m in Sources */,
+				F4F19C154BC2F205DC9DC2EA53FE2DC0 /* LYLeaksDefined.m in Sources */,
+				CF413275655A21F858C16BDB024CA1DD /* LYLeaksInspector-dummy.m in Sources */,
+				F8C469584A527B4A7FBCDFEB601510B4 /* LYLeaksInspector.m in Sources */,
+				96D41E55EC6B95913E231727F40E5A7E /* LYNotificationMapper.m in Sources */,
+				4A8F66335A4462B2C8A007EDC9732D6A /* LYTestLeaksController.m in Sources */,
+				E2E5B4BFD0F5DB88530947F54E8947A8 /* LYTestLeaksView.m in Sources */,
+				2947817F9592A1EDDD087C6620EE5104 /* NSNotificationCenter+ObserverInspect.m in Sources */,
+				E4857BB5F692A5A6534DEEA8CE938176 /* NSObject+LeaksInspector.m in Sources */,
+				989CDB10D31D1E01CC93E884C8E9E440 /* NSObject+MRCDeallocInspect.m in Sources */,
+				5A759EAB91FDD988E8F5956E7567ED50 /* NSObject+MRCInstanceValue.m in Sources */,
+				DBC562873AA39DDC57544D1DE7FD35FA /* UINavigationController+LeaksInspector.m in Sources */,
+				A8598AA29F273D202595EBDC92E6A60A /* UIView+LeaksInspector.m in Sources */,
+				FEB25A608F1A9AD0A6308F338E0EA7BC /* UIView+Recursive.m in Sources */,
+				9037A66747F055DE9423B7473DE84056 /* UIViewController+LeaksInspector.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+		B370D312A6587B12D967B99870858D74 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				85DF0505CE4EC7D7AD628FD1E99AC70D /* Pods-LYLeaksInspector_Example-dummy.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXTargetDependency section */
+		9F2E254C282D23FFEF68A07F5F0559D6 /* PBXTargetDependency */ = {
+			isa = PBXTargetDependency;
+			name = LYLeaksInspector;
+			target = 2316A95395FBED7CBABAD73F608BF8EA /* LYLeaksInspector */;
+			targetProxy = 90B88A5D5B2369A6E2ACF391623DB51F /* PBXContainerItemProxy */;
+		};
+/* End PBXTargetDependency section */
+
+/* Begin XCBuildConfiguration section */
+		052A17875CB827423D627183396CEB60 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = YES;
+				ENABLE_NS_ASSERTIONS = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_PREPROCESSOR_DEFINITIONS = "RELEASE=1";
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		0F8C1BED69DD065E84B252CC734F7675 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB07CF39EB353ED9C5EF40B8B49A7C4 /* LYLeaksInspector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch";
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"$(inherited)",
+					"COCOAPODS=1",
+					"LYListViewControllers=0",
+				);
+				INFOPLIST_FILE = "Target Support Files/LYLeaksInspector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				PRODUCT_NAME = LYLeaksInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		55982FEF97E18C9FEC7B3FED523566E8 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = ABC58B8C6E69A3FD9D7BAA71986F2327 /* Pods-LYLeaksInspector_Example.release.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYLeaksInspector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYLeaksInspector_Example/Pods-LYLeaksInspector_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LYLeaksInspector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		621EA9F02C6C390846F4EA5D8BB4D0EF /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 3DB07CF39EB353ED9C5EF40B8B49A7C4 /* LYLeaksInspector.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_PREFIX_HEADER = "Target Support Files/LYLeaksInspector/LYLeaksInspector-prefix.pch";
+				INFOPLIST_FILE = "Target Support Files/LYLeaksInspector/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MODULEMAP_FILE = "Target Support Files/LYLeaksInspector/LYLeaksInspector.modulemap";
+				MTL_ENABLE_DEBUG_INFO = NO;
+				PRODUCT_NAME = LYLeaksInspector;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Release;
+		};
+		996A5DE839EB6EDA97C3E0BC539328BD /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 314743A4DEDB31903449A4709CAD82EA /* Pods-LYLeaksInspector_Example.debug.xcconfig */;
+			buildSettings = {
+				"CODE_SIGN_IDENTITY[sdk=iphoneos*]" = "iPhone Developer";
+				CURRENT_PROJECT_VERSION = 1;
+				DEFINES_MODULE = YES;
+				DYLIB_COMPATIBILITY_VERSION = 1;
+				DYLIB_CURRENT_VERSION = 1;
+				DYLIB_INSTALL_NAME_BASE = "@rpath";
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				INFOPLIST_FILE = "Target Support Files/Pods-LYLeaksInspector_Example/Info.plist";
+				INSTALL_PATH = "$(LOCAL_LIBRARY_DIR)/Frameworks";
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks @loader_path/Frameworks";
+				MACH_O_TYPE = staticlib;
+				MODULEMAP_FILE = "Target Support Files/Pods-LYLeaksInspector_Example/Pods-LYLeaksInspector_Example.modulemap";
+				MTL_ENABLE_DEBUG_INFO = YES;
+				OTHER_LDFLAGS = "";
+				OTHER_LIBTOOLFLAGS = "";
+				PODS_ROOT = "$(SRCROOT)";
+				PRODUCT_NAME = Pods_LYLeaksInspector_Example;
+				SDKROOT = iphoneos;
+				SKIP_INSTALL = YES;
+				TARGETED_DEVICE_FAMILY = "1,2";
+				VERSIONING_SYSTEM = "apple-generic";
+				VERSION_INFO_PREFIX = "";
+			};
+			name = Debug;
+		};
+		B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++0x";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				GCC_C_LANGUAGE_STANDARD = gnu99;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_SYMBOLS_PRIVATE_EXTERN = NO;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 7.0;
+				ONLY_ACTIVE_ARCH = YES;
+				STRIP_INSTALLED_PRODUCT = NO;
+				SYMROOT = "${SRCROOT}/../build";
+			};
+			name = Debug;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		2488115AFD9B97C3288FE629DAC7135B /* Build configuration list for PBXNativeTarget "LYLeaksInspector" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				0F8C1BED69DD065E84B252CC734F7675 /* Debug */,
+				621EA9F02C6C390846F4EA5D8BB4D0EF /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		2D8E8EC45A3A1A1D94AE762CB5028504 /* Build configuration list for PBXProject "Pods" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				B37F0F91F85060E28F1DAAB522DC7EC1 /* Debug */,
+				052A17875CB827423D627183396CEB60 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		6ED82C83000A96D832BD77555B010CBA /* Build configuration list for PBXNativeTarget "Pods-LYLeaksInspector_Example" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				996A5DE839EB6EDA97C3E0BC539328BD /* Debug */,
+				55982FEF97E18C9FEC7B3FED523566E8 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = D41D8CD98F00B204E9800998ECF8427E /* Project object */;
+}
