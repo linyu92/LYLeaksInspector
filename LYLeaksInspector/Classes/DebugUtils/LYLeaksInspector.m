@@ -63,6 +63,10 @@ static LYLeaksInspector *g_twDebug = nil;
 
 - (LYLDHeapStackTableViewController *)heapStackControllerWithLivingVC:(NSArray *)livings leaksObj:(NSArray *)leaksobj leaksNotify:(NSArray *)leaksnotify
 {
+    if (livings.count == 0 && leaksobj.count == 0 & leaksnotify.count == 0) {
+        [[NSNotificationCenter defaultCenter] postNotificationName:kLeaksWarnClearNotification object:nil];
+    }
+    
     NSArray *dataSource = nil;
     if (livings) {
         dataSource = @[leaksobj,leaksnotify,livings];

@@ -47,6 +47,7 @@ NSSet * LeaksInspectorWhiteListClass()
                             @"UIInputWindowController", // UIAlertControllerTextField
                             @"UICompatibilityInputViewController",
                             @"LYLDWindowController",
+                            @"UIImageView",
                             nil];
         [g_LeaksWhiteList retain];
     });
@@ -59,7 +60,6 @@ void AddLeaksInspectorWhiteListClass(NSString *classname)
     [set addObject:classname];
     [g_LeaksWhiteList release];
     g_LeaksWhiteList = [set copy];
-    [g_LeaksWhiteList retain];
 }
 
 

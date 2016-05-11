@@ -42,7 +42,11 @@ NSString *const kCellTitleViewLeakStack = @"ViewLeakStack";
 - (instancetype)initWithPointerString:(NSString *)pointer
 {
     id object = [LYHeapObjectEnumerator objectForPointer:pointer];
-    return [self initWithObject:object Class:[object class]];
+    if (object) {
+        return [self initWithObject:object Class:[object class]];
+    }else{
+        return nil;
+    }
 }
 
 - (instancetype)initWithObject:(id)object

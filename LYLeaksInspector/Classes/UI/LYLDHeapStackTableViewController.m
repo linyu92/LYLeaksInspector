@@ -130,7 +130,12 @@
         NSString *pointerValue = [self pointerStringFromAddressPair:cellValue];
         LYLDHeapDetailTableViewController *detailVC = nil;
         detailVC = [[LYLDHeapDetailTableViewController alloc] initWithPointerString:pointerValue];
-        [self.navigationController pushViewController:detailVC animated:YES];
+        if (detailVC == nil) {
+            UIAlertView *alertview = [[UIAlertView alloc] initWithTitle:@"object has been release!" message:@"" delegate:nil cancelButtonTitle:@"确定" otherButtonTitles:nil];
+            [alertview show];
+        }else{
+            [self.navigationController pushViewController:detailVC animated:YES];
+        }
     }
 }
 
